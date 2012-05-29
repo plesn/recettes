@@ -1,0 +1,1108 @@
+.. -*- mode: rst -*-
+
+.. compile with:
+   $ rst2html recettes.txt --stylesheet=recettes.css > recettes.html
+
+========
+Recettes
+========
+
+.. contents:: Index
+
+.. |cs| replace:: CàS
+.. |cc| replace:: CàC.
+
+Généralités
+===========
+
+Apports nutritifs
+-----------------
+
+glucides
+  céréales (pain, riz, pâtes), pommes de terre, lentille, bananes, ...
+
+fibres
+  pois et haricots secs, fruits secs et frais, céréales complètes,
+  pomme de terre, carotte. Absents dans les produits d'origine animale.
+
+sucres
+  utiliser plutôt aliments complets (fruits …) qui possèdent également
+  fibres. Surabondants, ils sont transformés en corps gras
+
+protéines
+  protéines complètes (23 acides aminés) abondantes dans les produits
+  animaux (viande, oeufs, produits laitiers), présentes dans les
+  produits végétaux mais pas toutes aussi abondament partout: manger
+  le plus varié possible et tendre à associer légumineuses et
+  céréales.
+
+  Les légumineuses possèdent beaucoup de protides: lentilles, soja,
+  pois-chiches, haricots.
+
+vitamines
+  - vitamine B12 presque absente chez les végétaux: produits laitiers,
+    oeufs, algues, luzerne…
+  - B1 (thiamine) : graines soja, germes de blé, haricots secs
+  - B2 (rhiboflavine) : produits laitiers, champignons, graines de
+    soja, légumes verts
+  - B3 (acide nicotinique) : champignons, graines de sésame et de
+    tournesol
+  - B6 (pyridoxine) : raisins secs, bananes, graines de tournesol et
+    soja
+  - acide folique : salade verte, endive, oranges, noix, amandes,
+    avocats
+  - vitamine C : légumes verts à feuilles, tomates, poivrons, mûres,
+    oranges, fraises …
+  - vitamines A, D, E, K (vitamines liposolubles) : huiles, beures,
+    fruits, graines oléagineux. L'humain exposé au soleil fabrique de
+    la vitamine D
+
+sels minéraux
+  - fer : légumes secs, céréale complètes, fruits oléagineux, légumes
+    verts, fruits secs
+  - calcium : produits laitiers, mais aussi le sésame, soja, figues,
+    fruits secs, levure de bière, algues
+  - zinc, magniesium
+  - iode : sel iodé, algues
+
+lipides
+  - acides gras saturés : produits animaux [pas très bons]
+  - acides gras polyinsaturés
+  - acides gras monoinsaturés (huile d'olive, colza) [bons]
+
+
+super-aliments
+  très riches en valeurs nutritive, peuvent substituer la viande:
+  lentilles, soja, flocons d'avoine, son de blé, œufs, abricots secs,
+  produits laitiers, épinards, graines de sésame, tofu/tempeh,
+  extraits de levure
+
+Ingrédients élémentaires
+------------------------
+
+céréales
+  Base alimentaire, riches en glucides, souvent en fibres
+
+  - pâtes
+  - riz thaï en grand sacs de chez le chinois, le faire cuire au
+    rice-cooker
+  - polenta: semoule de maïs avec de l'eau ( 1 |cc| d'huile, épices
+    éventuelles)
+  - boulghour: un sous-produit du blé, utilisé pour le taboulé
+  - pain: utiliser une machine à pain
+
+légumineuses
+  Riches en protéines.
+
+  Les acheter séchées. Pour les préparer il faut les faire tremper 1
+  journée pour les pois-chiche, 1h pour le soja. On peut ensuite les
+  faire gérmer ou les faire cuire. Les pois-chiches et le soja sont
+  intéressants mixés en purée pour faire des pâtés végétaux ou des
+  additifs/sauces.
+
+  attention, le soja est toxique et il ne faut pas l'utiliser trop
+  régulièrement
+  (http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite)
+
+légumes et fruits frais
+  Riches en vitamines, souvent en fibres.
+
+  - beaucoup de légumes frais sont faciles à faire en salade avec une
+    sauce ou juste de l'huile: tomates, carotte (rapée), concombres,
+    endive (avec du bleu) ou fenouil.
+  - pomme de terre: base alimentaire riche en glucides complexes.
+  - fruits à manger tels quels ou en jus (appareil à smoothie)
+
+épices
+  Donnent de la saveur. Certaines épices moulues sont à brièvement
+  chauffer à l'huile pour mieux libérer leur saveur (curcuma, …),
+  d'autres sont à ajouter en fin de cuisson.
+
+  - épices moulues: avoir des épices moulues composées (curry, ras-el
+    hanout, 4 épices, épices tajine, …) et des épices de base
+    (poivres, curcuma, cumin, coriandre, gingembre, piments,
+    gingembre, cardamome, paprika canelle, clou de girofle, …). Les
+    conserver en pots hérmétiques.
+  - herbes: origan, persil, thym, laurier, cerfeuil, basilic. Herbes
+    composées: herbes de provence
+
+sauces
+  - sauce soja: utile partout
+  - sauce d'huitre pour rendre asiatique (oignons)
+  - sauce tomate (concentrée)
+
+huiles
+  - huiles de cuisson: olive (mono-insaturées), tournesol
+    (poly-insaturées, omega 6)
+  - huiles d'assaisonnement: colza (poly-insaturées omega 3), noix (")
+
+autres condiments
+  - parmesan: essentiel pour les pâtes !
+  - bouillon végétal
+
+soupes
+  …
+
+thés
+  A acheter en vrac. Verts, noirs (assam, darjeeling), noirs
+  parfumés. Utiliser une cuiller à thé pour réutiliser le thé
+  plusieurs fois. Thé à la menthe: thé vert gunpowder avec de la
+  menthe fraiche ou séchée, bien l'oxygéner.
+
+autres
+  fruits secs, confitures pour les sucres rapides, produits laitiers
+  (fromages), œufs …
+
+  - les œufs sont un liant intéressant à utiliser avec de la farine
+  - maïzena: épaississant, permet de faire des crèmes. essayer le tapioca.
+  - algues: condiment, mais le agar-agar est aussi un gélifiant
+  - laits végétaux (riz, soja)
+
+Liens
+-----
+
+sites de cuisine "bidouillable"
+  - http://cfaitmaison.com
+  - http://blog-maison-ecologique.fr
+
+divers
+  - http://saveursdefamille.canalblog.com/archives/2008/04/07/8651747.html
+  - http://cuisine-saine.fr/tag/lait-de-riz
+  - http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite
+
+Salades
+=======
+
+Vinaigrette
+-----------
+
+- 1 |cc| de moutarde
+- 2 |cs| d'huile
+- 1 |cs| de vinaigre
+- sel, poivre
+- éventuellement ail, épices, ciboulette…
+
+Diversifier les types d'huile pour que ce soit meilleur !
+
+1. mélanger les ingrédients à la fourchette en battant un peu
+
+Salade de fenouil
+-----------------
+
+- 1 belle tête de fenouil
+- 125g de bleu d'Auvergne
+- 100g de raisins secs blancs
+- huile d'olive/colza
+
+#. Emincer le fenouille en petits bouts, le bleu en dés moyens.
+#. Assaisonner d'un mélange d'huile de colza et d'olive, et bien mélanger.
+
+Salade de fromage/poisson
+-------------------------
+
+* salade de Saint-Moret/thon/ciboulette (ou aneth)
+* salade de Boursin/sardines
+
+les mélanger !
+
+
+Salade d'endives au roquefort
+-----------------------------
+
+- 2 ou 3 endives
+- 125g de roquefort
+- 1 pomme
+- cernaux de noix concassés (morceaux)
+- haddock fumé
+- huile de noix + huile de colza (huile d'olive bof)
+
+Salade fenouil-chèvre-pommes
+----------------------------
+
+pour 2 personnes.
+
+- 1 fenouil
+- fromage de chèvre (4 cs de Salakis, qui ont leur huile)
+- 1/2 pomme
+- 1 oignon
+- 1 cs de vinaigre balsamique
+- 1 cs d'huile d'olive
+
+Salade de riz
+-------------
+
+- 250g de riz
+- 2 tomages
+- 1 boite de maïs
+- 2 œufs durs
+- 1 boite de thon, ou préparation de crabe, etc…
+- olives vertes dénoyautées
+- vinaigrette_
+- sel, poivre
+
+1. cuire le riz et le laisser refroidir
+2. couper les œufs et les tomates
+3. ajouter les ingrédients au riz
+4. assaisonner avec la vinaigrette 
+5. placer au réfrigérateur
+
+Entrées
+=======
+
+Asperges à la flamande
+----------------------
+
+- 8 asperges
+- 2 œufs
+- 75g de beurre
+- pommes de terre
+- persil
+
+1. peler les asperges et enlever le bout
+2. cuire les asperges dans de l'eau salée (~10-15min)
+3. cuire le œufs durs (10min)
+4. cuire les pommes de terres
+5. faire fondre le beurre à feu doux
+6. écraser les œufs et mélanger avec le beurre et un peu de persil
+7. servir le tout en saucant avec le mélange d'œufs
+
+Pêches au thon
+--------------
+
+Ingrédients:
+
+- pêches et thon en boites
+- mayo
+- salade
+
+Préparation:
+
+#. égouter le thon et le mélanger avec la mayonnaise et un peu de la
+   sauce des pêches.
+#. mettre la préparation sur les demi-pêche
+#. résenter sur des feuilles de salade.
+
+Tomates farcies au gruyère
+--------------------------
+
+- 4 grosses tomages
+- 100g de gruyère
+- 4 œufs durs
+- moutarde
+- 1,5 dl d'huile
+- sel
+
+#. Vider 4 grosses tomates et saler à l'intérieur
+#. Couper en dés 100 gr. de gruyère (ou de fromage de Hollande) et les
+   blancs de 4 oeufs durs
+#. Écraser les jaunes avec une cuill. à café de moutarde et une pincée
+   de sel et ajouter peu à peu 1,5 dl d'huile
+#. Mélanger cette sauce avec les dés de fromage et d'œufs durs et
+   ajouter 2 cornichons émincés
+#. Emplir les tomates avec la préparation.
+
+
+Soupes
+======
+
+Soupe de légumes
+----------------
+
+- 3 oignons
+- 1 gousse d'ail
+- épices : thym, coriandre, gingembre, piment, sel, poivre…
+- légumes: courgettes, patissons, carottes…
+
+1. faire revenir les oignons et l'ail avec les épices dans un grand wok
+2. couper les légumes en dés et les incorporer dans le wok
+3. ajouter de la crême fraiche et du lait et mixer le tout
+
+
+Plats
+=====
+
+Pâtes à la la sauce tomate-soja
+-------------------------------
+
+- pâtes
+- graines de soja séchées
+- sauce tomate
+- 2 oignons
+- 1 gousse d'ail
+- huile d'olive
+- sauce soja
+- olives
+- épices : sel, poivre, cumin
+- parmesan
+
+1. faire tremper les graines de soja 1h, puis les cuire 20min et les
+   mixer en purée
+2. commencer à faire cuire les pâtes
+3. faire revenir les oignons, l'ail et les épices sur l'huile
+4. rajouter à la sauce la purée de soja avec un peu d'eau, un peu de
+   sauce soja, puis la sauce tomate et des olives
+5. mélanger la sauce aux pâtes, saupoudrer de parmesan
+
+
+Pâtes orientales
+----------------
+
+- pâtes
+- oeufs
+- sauce d'huitre (il en existe des végétariennes)
+- oignons
+- sel, poivre, épices (un peu de curry va, mais peut-être pas trop)
+- huile d'olive
+
+1. faire cuire les pâtes
+2. faire revenir les oignons dans un wok, avec un peu d'huile
+3. rajouter de la sauce à l'huitre et épicer
+4. rajouter des oeufs
+
+Boulghour lentilles
+-------------------
+
+- 200g de boulghour
+- 200g de lentilles (les lentilles corail vont très vite à faire)
+- 2 gros oignons
+- 2 gousses d'ail
+- légumes: tomates…
+- épices: coriandre, persil frais, …
+
+1. recouvrir le boulghour salé d'eau bouillante salée
+2. cuire les lentilles à l'eau
+3. faire revenir les oignons et l'ail à feu doux, épicer avec la
+   coriandre
+4. mélanger le tout dans la poelle, ajouter les légumes, soupoudrer de
+   persil
+
+
+Pommes de terre au curcuma
+--------------------------
+
+- pommes de terres
+- du curcuma
+- des citrons confits
+
+#. Couper les pommes de terres en dés.
+
+#. Quelques cuillères à soupe d'huile au fond de la casserolle, 1 à 2
+   petites cuillère à café du curcuma.
+#. Mettre un peu d'eau pour pas faire brûler, mettre les pommes de
+   terre et les recouvrir d'eau.
+#. Mettre 1/2 citron confit coupé en petits morceaux, 1 gousse
+   d'aille, un peu de sel.
+#. Faire mijoter à feu doux à moitié sous couvercle.
+
+Pommes de terres sautées
+------------------------
+
+- pommes de terre
+- oignons
+- épices: curry
+
+1. faire revenir des oignons à la poele avec des épices
+2. couper les pommes de terres en dés, les ajouter et compléter avec
+   de l'eau
+
+
+Quiche lorraine
+---------------
+
+Ingrédients:
+
+- pâte feuilletée
+- 2 oeufs
+- fromage rapé
+- herbes de provence
+- crème fraiche légère (20cl)
+- lardons, oignon, 1 boite de champignons de paris
+
+Préparation:
+
+#. Faire des trous dans la pâte avec une fourchette.
+#. Faire revenir les lardons, les oignons et les champignons de paris,
+   soupoudrer d'herbes de provence et mettre cette garniture sur la
+   pâte.
+#. Mélanger les oeufs, la crème et un peu de fromage rapé dans un bol,
+   et verser le tout sur la garniture.
+#. Soupoudrer le tout de fromage rapé
+#. cuire au four (20 min à 200 degrés environ)
+
+
+Côtes de porc au roquefort
+--------------------------
+
+Pour 4 personnes.
+
+#. Assaisonner les côtes de porc et les sauter au beurre (cuisson
+   complète), sitôt cuites les retirer et les garder au chaud
+#. Égoutter une partie de la graisse de cuisson et y cuire l'échalote
+   (ou l'oignon) hachée sans coloration
+#. Déglacer au vin blanc (1 dl de vin de table) et réduire des 2/3
+#. Ajouter 2,5 dl de crème fraîche et ensuite le roquefort écrasé à la
+   fourchette
+#. Cuire quelques instants jusqu'à onctuosité voulue de la sauce et
+   rectifier l'assaisonnement
+
+Riz oriental
+------------
+
+Pour 4 personnes.
+
+#. Faire cuire le riz
+#. Couper 100 gr. de lard fumé maigre en dés
+#. Mettre à rissoler avec un gros oignon dans 3 cuill. à soupe d'huile
+   ainsi que 100 gr. de champignons émincés
+#. Ajouter 600 (à 800 gr., ça dépend de la faim des convives) de haché
+   de porc-veau et 50 à 100 gr. de crabe (une boîte de crabe en
+   morceaux, c'est moins cher) et faire cuire 5 minutes en tournant
+#. Mélanger avec le riz et 3 oeufs entiers battus dans un moule à
+   soufflé bien beurré (pour éviter que ça n'attache)
+#. Faire cuire 20 minutes à four moyen ;
+
+
+Crevettes Thaï
+--------------
+
+- crevettes
+- boite de lait de coco
+- boite de pâte de curry (deux cuillères à soupe de curry normal ou une noisette de curry vert)
+
+
+#. Faire revenir les crevettes à la poile
+#. rajouter la boite de coco
+#. rajouter un peu de curry 
+
+
+Tartiflette
+-----------
+
+- pommes de terre
+- reblochon
+- oignons
+- lardons
+
+#. cuire à l'eau les pommes de terre coupées en tranches
+#. faire revenir les lardons et oignons à la poelle (garniture)
+#. dans un plat (à flan) mettre les pommes de terre, la garniture, et
+   le reblochon en coupé en tranche. Bien répartir pour avoir du
+   reblochon sur le dessus
+#. mettre brièvement au four
+
+Alternative : on peut aussi faire le tout à la poelle.
+
+Gratin de pommes de terre et choux-fleurs
+-----------------------------------------
+
+- 1,2kg de patates
+- 1 petit paquet de choux-fleur
+- 3 oignons
+- 4 |cs| de farine
+- 50g de beurre environ
+- 1/2 de lait
+- noix de muscade
+
+#. éplucher les patates, les couper en rondelles/dés et les faire cuire
+#. éplucher, couper les oignons et les faire cuire à la poële
+#. couper le choux-fleur (pas besoin de le pré-cuire)
+#. faire une béchamel en fondant le beurre, le mélangant à la farine puis au lait
+#. mettre le tout dans un plat (à flanc), saupoudrer de fromage
+#. cuire 10 min à 220°C
+
+
+Lentilles corail au masala
+--------------------------
+
+- lentilles corail
+- masala_
+
+A servir avec des chapati, des paratahs ou du riz.
+
+
+
+Galettes et préparation de légumes
+==================================
+
+Galettes de pommes de terre
+---------------------------
+
+Très facile à faire avec un robot, à la main râper prends beaucoup de
+temps.
+
+- 1kg de pommes de terre
+- 2 oeufs
+- 3 |cs| de farine
+- sel, poivre
+- ail
+- huile
+
+1. éplucher les pommes de terre puis les raper, les rincer et les
+   égoutter à la passoire
+2. rajouter les oeufs, assaisonner (ail, ciboulette, sel, poivre)
+3. rajouter de la farine jusqu'à ce que la consistence soit bonne
+4. constituer des galettes et les faire revenir à l'huile
+
+Fallafels
+---------
+
+- pois-chiche
+- oignons
+- curry
+- sel, poivre
+- huile (pour friture)
+
+#. faire reposer les pois-chiches 24h dans de l'eau
+#. faire revenir des oignons assaisonés avec du curry, sel et poivre
+#. mélanger le tout et passer au mixer
+#. faire des boulettes
+#. faire chauffer un gros fond d'huile dans une casserole, et faire
+   frire les boulettes
+
+Servir avec un `pain pita`_, de la `sauce blanche`_ et des légumes
+(salades, tomates, oignons)
+
+
+Galettes de pois-chiche
+-----------------------
+
+Ingrédients:
+
+- 3 oignons
+- 250g de farine de pois-chiche
+- 250ml d'eau
+- 1 |cs| de curry
+- 1 |cs| de persil
+- sel, poivre
+
+Préparation:
+
+#. Couper les oignons en petits morceaux, les faire revenir dans
+   l'huile à feux doux avec le curry.
+#. dans un bol, mettre la farine de pois-chiche, sel, poivre et
+   persil, rajouter progressivement de l'eau pour obtenir une
+   consistence semi-liquide
+#. mettre les oignons dans le bol
+#. dans une poile avec de l'huile, former les galettres avec 1 |cs| de
+   mélange et faire chauffer des deux côtés.
+
+
+Steaks de soja
+----------------
+
+Idéal pour réutiliser l'okara, ce qui reste lors de la fabrication du
+lait de soja. Pour 2 steaks :
+
+
+- okara d'1 tournée de lait de soja
+- 3 |cs| de farine
+- un peu de chapelure de pain
+- 1 oignon
+- 1 gousse d'ail
+- 2 |cc| de curry
+- sel, poivre
+- 1 léchouille de sauce soja
+- goutte d'huile d'olive
+
+1. découper finement l'oignon
+2. mélanger le tout, presser l'ail
+3. cuire à la poële à l'huile pendant 10 min
+
+Galettes de légumes
+-------------------
+
+- légumes
+- 1 oeuf
+- 2 |cs| de farine
+- sel, poivre
+- huile d'olive
+
+1. raper les légumes
+2. mélanger les ingrédients pour consituer des galettes
+3. faire chauffer à la poêle
+
+
+
+Pâte : pains, pizza, galettes
+=============================
+
+Pain à la machine
+-----------------
+
+recette à la machine à pain (MAP)
+
+- 300g d'eau
+- 500g de farine
+- 1 sachet de levure boulangère
+- 1 |cc| de sel
+- 1 |cc| de sucre
+
+1. mettre tous les ingrédients dans l'ordre dans la cuve
+2. lancer la MAP en mode "pain" (3h)
+
+On peut ajouter des graines (de tournesol) à saupoudrer une fois la
+pâte faite (après le beep).
+
+Brioche
+-------
+
+recette à la machine à pain (MAP)
+
+- 220ml d'eau
+- 4 jaunes d'œufs
+- 100g de beurre fondu
+- 4 |cs| de sucre
+- 2 sachets de sucre vanillé
+- 500g de farine
+- 1/2 sachet de levure boulangère
+
+1. mettre tous les ingrédients dans l'ordre dans la cuve
+2. lancer la MAP en mode "pain"
+
+Sûkerbôle (pain au sucre)
+-------------------------
+
+recette à la machine à pain (MAP)
+
+- 150ml de lait
+- 2 œufs
+- 30g de beurre
+- 1 |cc| de canelle
+- 1 |cc| de gingembre (ou 3 |cs| de sirop de gingembre)
+- 400g de farine T65
+- 20g de sucre cristal
+- 180g de sucre en morceaux
+- 1 sachet de levure boulangère
+- 1 |cc| de sel
+
+1. faire fondre le beurre dans un poêllon
+2. mettre dans la MAP le lait, les œufs, le beurre, le gingembre, la
+   farine, la levure et le sel
+3. mettre la MAP en programme "pâte", pendant 1h30
+4. casser les sucres en morceau en 4
+5. enlever la pâte, mettre les morceaux de sucre et la canelle dedans
+6. enrober l'extérieur de la pâte de sucre cristal (pour qu'elle
+   caramelise)
+7. remettre dans la MAP et laisser reposer 2h
+8. mettre la MAP en mode cuisson pendant 50min
+
+Remarque : on ne met pas les morceaux de sucre pendant le petrissage
+pour ne pas abimer la MAP.
+
+Pain pita
+---------
+
+À la MAP
+
+- 300ml d’eau tiède
+- 500g de farine
+- 1 sachet de levure de boulanger
+- 1 |cc| de sel
+- 1 |cc| de sucre roux
+
+1. Verser les ingrédients dans la cuve
+2. mettre en programme "pâte"
+3. sortir et couper pour faire 8 parts
+4. étaler pour faire des cercles plats
+5. laisser reposer 1/2h
+6. cuire à la poëlle et retourner au bout de 2min
+
+
+Pain perdu
+----------
+
+- pain rassi
+- lait
+- oeufs
+- sucre
+- sucre vanillé
+
+
+à refaire pour voir
+
+Pâte à pizza
+------------
+
+Ingrédients pour pâte à pizza à la machine à pain :
+
+- 200ml? d'eau tiède
+- 4 |cs| d'huile d'olive
+- 500g de farine (en garder un peu pour mettre sur la planche pour pas que ça colle)
+- 1 |cc| de sel
+- eventuellementt herbes de provence et fromage râpé
+
+Faire la pâte
+
+1. mettre les ingrédients dans l'ordre ci-dessus
+2. régler sur le programme "pâte"
+3. étaler avec un rouleau à patisserie
+4. améliorer éventuellement les bords en y insérant des lamelles de mozarella puis en repliant la pâte dessus
+5. précuire la pâte au four 5 min à 280°C
+6. y ajouter une garniture puis mettre 30 min au four
+
+Comme garniture utiliser par exemple :
+
+- coulis de tomage (sauce concentrée)
+- oignons, champignons, lardons
+- fromage fondu (croc-monsieur), mozzarella fromage de chèvre
+- légumes : poivrons, tomate, olives
+- œuf à rajouter 5 minutes avant la fin
+
+Crèpes
+------
+
+- 250g de farine (blé normal ou sarrasin)
+- 2 œufs
+- 1 |cs| d'huile
+- 1/2 |cc| de sel
+- eau / lait : ? (50 cl)
+
+1. mettre la farine dans un saldier, y faire un puit
+2. mettre les œufs, le sel, l'huile
+3. au fouet, incorporer la farine en versant lait/eau et battre
+   jusqu'a obtenir une consistance visqueuse
+4. laisser reposer 2 heures (pour une meilleure texture)
+
+Crèpes sans œufs
+----------------
+
+Pour 8 crèpes environ :
+
+- 250g de farine
+- 3 |cs| de maïzena
+- 1/2 de lait (ou de lait de soja)
+- 1 pincée de sel
+- huile (pour la cuisson)
+
+1. mélanger farine, maïzena et sel
+2. ajouter progressivement du lait jusqu'a obtention d'une texture
+   semi-liquide
+3. cuire à la poële à feu fort. rajouter un peu d'huile au fur et à
+   mesure à l'aide d'un papier
+4. laisser reposer 1h (pour une une meilleure texture)
+
+Il est possible de faire la recette en remplacerle lait par du lait de
+soja ou même de l'eau mais il faut laisser reposer plus longtemps.
+
+
+Patés et tartinades végétales
+=============================
+
+Pâté de pois-chiche au curry
+----------------------------
+
+- 150g de farine de pois-chiche
+- 50cl d'eau
+- 2 carottes
+- 2 échalottes
+- 1 gousse d'ail
+- 3 |cc| de curry
+- 5 |cs| d'huile d'olive
+- quelques feuilles de céléri (facultatif)
+
+1. Délayer la farine de pois chiche avec l'eau, placer à feux doux et
+   remuer jusqu'à obtention d'une pâte épaisse et étaignez le feux
+2. raper les carottes, écraser  l'ail, émincez les échalottes.
+3. faites revenir à la poële le curry à l'huile en ajoutant les
+   légumes, pendant 2 ou 3 minutes, et salez
+4. incorporez les légumes dans la farine de pois chiches
+5. versez dans un moule à cake huilé. Enfournez à thermostat 6 durant
+   35 minutes. Laissez refroidir
+
+Pâté végétal de pois-chiche
+---------------------------
+
+- pois-chiche
+- algues séchées
+- épices (curcuma, cumin...)
+- huile d'olive
+- sauce soja
+
+1. faire tremper les pois-chiche 1 ou 2 jours, puis les laisser germer
+2. cuire les pois-chiche dans de l'eau
+3. écraser les pois-chiche en purée (au mixer par exemple)
+4. faire chauffer huile d'olive, ajouter 1 cuiller à café de curcuma
+   et 1 de cumin, et faire revenir la pâte de pois-chiche
+5. ajouter des petits bouts d'algue et de la sauce soja
+
+A tartiner sur du pain ou de la polenta, en rajoutant des olives ou du parmesan
+
+Caviar d'aubergines
+-------------------
+
+Ajouter de la purée de pois-chiche au caviar d'aubergines le rend plus consistant et nourrissant.
+
+- 2 grosses aubergines
+- 3 ou 4 |cs| d'huile  d'olive
+- 2 gousses d'ail
+- 2 |cs| de jus de citron frais
+- sel, cardamome
+
+1. éplucher les aubergines et les couper en cubes
+2. faire cuire les aubergines à l'étouffée avec les gousses d'ail entières et l'huile d'olive
+3. verser dans le mixer, enlever la peau des gousses d'ail
+4. ajouter le jus de citron, la cardamome, saler, et mixer le tout
+5. mettez au frigo
+
+
+
+Desserts
+========
+
+Flan au caramel
+---------------
+
+Ingrédients :
+
+- caramel = 300g sucre + 4 cuillers à soupe d'eau
+- flan = 1L lait, 7 oeufs, 200g de sucre, 2 paquets sucres vanillé ou vanille
+
+Préparation:
+
+- caramel :
+
+  #. humidifier le sucre dans poêlon puis caraméliser (chauffer).
+  #. Enrober le plat de caramel (enrober les bords)
+
+- flan :
+
+  #. casser 7 oeufs dans grand saladier, ajouter sucre vanillé.
+  #. Porter à ébullition 1L lait avec 200g de sucre dans un poêllon
+     (celui du caramel). Faire attention de ne pas déborder !!
+  #. verser le lait dans le saladier avec les oeufs en battant les
+     oeufs en même temps
+  #. verser le mélange oeufs+lait dans le plat avec le caramel
+  #. mettre au four (préalablement préchauffé), au bain-marie pendant
+     +/- 30 minutes (attention au moment de sortir du four)
+  #. laisser refroidir (faire de préférence la veille...)
+
+
+Tarte à la rhubarbe
+-------------------
+
+Ingrédients :
+
+- pâte sablée
+- 1 kg de rhubarbe
+- 4 blancs d'oeufs
+- 200g de sucre
+- 60g de farine (pour la rhubarbe)
+- 60g de sucre roux (ou pas)
+- pincée de sel
+
+Préparation :
+
+- pâte :
+
+  #. préchauffer le four
+  #. pré-cuire la pâte à blanc
+
+- masse
+
+  #. éplucher la rhubarbe et la couper en dés
+  #. battre 4 blancs en neige, ajouter une pincée de sel
+  #. quand les blancs sont en neige, ajouter le sucre peu à peu
+  #. enrober la rhubarbe dans de la farine et du sucre
+  #. mélanger délicatement (pas trop)
+
+- le tout :
+
+  #. mettre la préparation sur la pâte
+  #. chauffer au four à 170° pendant 1h (en théorie)
+
+Tarte à la rhubarbe meringuée
+-----------------------------
+
+Ingrédients :
+
+- pâte brisée
+- 1kg de rhubarbe
+- 3 œufs
+- 1 sachet de sucre vanillé
+- 250g de sucre
+- 1 CaS de maïzena
+- 20 cl de crème
+
+Préparation :
+
+1. laver, éplucher et couper en dés la rhubarbe, saupoudrer de sucre et laisser macérer 1h
+2. préchauffer le four à 230°C
+3. séparer blancs et jaunes de 2 œufs
+4. dans un bol mélanger : 1 œuf, 2 jaunes d'œufs, 1 sachet de sucre vanillé, 100g de sucre, la maïzena, et la crème afin de constituer un flan
+5. égoutter la rhubarbe en gardant le jus
+6. piquer la pâte avec une fourchette, placer les morceaux de rhubarbe et napper de flan
+7. mettre la pâte au four pendant 30 min
+8. battre les blancs en neige, puis y incorporer 100g de sucre pour consituter la meringue
+9. bouillir le jus de rhubarbe avec un peu de sucre pour faire un sirop
+10. napper la tarte d'un peu de sirop, de meringue et laisser sêcher dans le four afin que la meringue durcisse (toucher avec le doit, éventuellement laisser le four un peu à 100°C), puis d'encore un peu de sirop
+
+Crème de cacao
+--------------
+
+- 500ml de lait de riz/soja
+- 45g de cacao en poudre (pas le sucré, le vrai)
+- 100g de sucre
+- 25g de maïzena
+- 1 pincée de sel
+
+1. mélanger le sucre, le cacao, le sel, le 1/4 du lait dans une
+   casserole à fond épais, et chauffer le tout
+2. dissoudre la maïzena dans 1 verre de l'ait
+3. ajouter le reste du lait dans la casserole
+4. incorporer la maïzena dans le chocolat
+5. remuez continuellement, le mélange doit s'épaissir
+6. verser dans des ramequins, puis laisser reposer au frais
+
+
+Crème caramel
+-------------
+
+- 100g de sucre
+- 3 |cs| bien remplies de maïzena
+- 500ml de lait
+- 1 |cs| d'eau
+
+1) faire le caramel avec le sucre + eau
+2) mélanger lait + maïzena
+3) hors du feu, verser doucement le lait dans le caramel (attention aux éclats)
+4) remettre sur le feu jusqu'à épaississement
+5) laisser reposer
+
+Gateau aux blancs d'œufs
+------------------------
+
+- 125g de farine
+- 190g de sucre
+- 4 blancs d'œufs
+- 1 paquet de sucre vanillé
+- 1 paquet de levure
+- 65g de beurre
+- 1 pincée de sel
+
+1. faire fondre le beurre
+2. mélanger farine, sucre, et beurre fondu
+3. monter les blancs d'œufs en neige avec un peu de sel
+4. intégrer la neige dans les poudres
+5. beurrer un plat et y verser le mélange
+6. faire cuire à 160 C pendant ~50min
+
+
+Jus de fruits
+=============
+
+Avec le blender :
+
+- jus d'orange carotte
+- jus ananas menthe
+
+Laits
+=====
+
+Lait de riz
+-----------
+
+Pas très réussi pour l'instant :
+
+- 50g de riz
+- 1300g d'eau
+- eau de trempage
+
+
+1. nettoyer le riz et le faire tremper au moins 4 heures
+2. mettre le riz de l'eau, porter à ébullition puis faire chauffer
+   encore 10 min
+3. laisser reposer 1/4 d'heure et passer à la passoire fine
+
+Lait de soja
+------------
+
+- 300g de graines de soja séchées
+- 2L d'eau
+- (sucre)
+
+1. faire tremper les graines de soja 2 nuits
+2. mixer le soja avec un peu d'eau
+3. porter à ébullition le tout à feu très doux en remuant
+   régulièrement jusqu'à ce qu'il n'y ai plus de mousse. Il est
+   recommandé de laisser bouillir 20 min supplémentaires pour
+   amoindrir la toxicité du soja
+4. éventuellement sucrer pendant la cuisson
+
+A conserver au frais dans une bouteille stérilisée et à consommer dans
+les 48 heures : il tourne facilement.
+
+Crème de soja
+-------------
+
+à essayer, vu sur:
+
+http://forum.aufeminin.com/forum/vegetariens/__f4594_vegetariens--70aire-100e-108a-99reme-118egetale.html#81746
+
+- 1/2 tasse de lait de soja
+- 1 |cs| de vinaigre de riz
+
+1. mettre le vinaigre dans la tasse de lait
+2. bien remuer et attendre 10 à 15 min
+
+Epices
+======
+
+Masala
+------
+
+- huile
+- 1 |cc| de coriandre
+- 1 |cc| de gingembre
+- 1 |cc| de curcuma
+- 1 piment vert ou piment en poudre
+- 1/2 oignon (nous : 2 oignons)
+- 1 gousse d'ail finement hachée
+- 1 tomate (facultatif)
+- sel, poivre
+
+faire cuire le tout à la poële à l'huile à feu doux, rajouter de l'eau
+pour éviter que les épices ne brunissent.
+
+Sauces
+======
+
+Sauce blanche
+-------------
+
+Sauce blanche pour kebab et fallafels. À essayer :
+
+- 2 yaourts à la grecque ou fromage blanc
+- 1/2 citron press
+- 1 échalotte
+- 1 oignon
+- 2 gousses d'ail
+- 2 |cc| de mayonnaise
+- piment doux
+- cumin
+- herbes de provence, persil, ciboulette, menthe…
+- sel, poivre
+- un peu de lait
+
+1. émincer finement oignon, ail, échalotte, herbes
+2. mélanger les ingrédients
+3. diluer avec un peu de lait pour obtenir la consistence désirée
+
+Cocktails
+=========
+
+Advocaat
+--------
+
+Liqueur aux œufs, très bon digestif :
+
+- 10 jaunes d'œufs
+- 3 sachet de sucre vanillé
+- 200g de sucre semoule
+- 1 boite de lait concentré non sucré (~410g)
+- 200cl de vodka
+
+1. battre les jaunes
+2. ajouter le sucre, sucre vanillé, le lait et la vodka
+3. laisser reposer 10 à 15 jours avant de déguster. Lors de la macération on
+   perd du volume.
+
