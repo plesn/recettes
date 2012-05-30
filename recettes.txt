@@ -1,7 +1,14 @@
 .. -*- mode: rst -*-
 
-.. compile with:
-   $ rst2html recettes.txt --stylesheet=recettes.css > recettes.html
+.. This document is written using the ReStructuredText format :
+   http://docutils.sourceforge.net/docs/user/rst/quickstart.html
+
+   To generate an html file just compile with:
+   $ make
+
+   or :
+   $ rst2html recettes.txt --stylesheet=recettes.css > index.html
+
 
 ========
 Recettes
