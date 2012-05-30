@@ -1,2 +1,2 @@
-recettes.html: recettes.txt recettes.css
+index.html: recettes.txt recettes.css
 	rst2html $< --stylesheet=$(word 2, $^) > $@

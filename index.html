@@ -1,1 +1,1382 @@
-recettes.html
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.6: http://docutils.sourceforge.net/" />
+<title>Recettes</title>
+<style type="text/css">
+
+/* css inspired from :
+   - style : http://svn.edgewall.org/repos/edgewall/tools/doc/style/edgewall.css
+   - colors : http://www.750g.com
+ */
+
+
+html, body { height: 100%; margin: 0; padding: 0; }
+body { background: #f4f4f4; color: #000; }
+body, th, td {
+  font: normal small Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif;
+}
+pre, code, tt { font-size: medium; }
+h1, h2, h3, h4 {
+  font-family: Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif;
+  font-weight: bold; letter-spacing: -0.018em;
+  color: #87b900;
+}
+h1 { font-size: 19px; margin: 2em 0 .5em; }
+h2 { font-size: 16px; margin: 1.5em 0 .5em; }
+h3 { color: #333; font-size: 14px; margin: 1.2em 0 .5em; }
+hr { border: none;  border-top: 1px solid #ccb; margin: 2em 0; }
+p { margin: 0 0 1em;}
+dt {font-weight: bold;}
+dd {margin-bottom: 1em;}
+
+table { border: 1px solid #999; border-width: 0 1px 0 0;
+  border-collapse: separate; border-spacing: 0;
+}
+table thead th { background: #999; border: 1px solid #999;; color: #fff;
+  font-weight: bold;
+}
+table td { border: 1px solid #ccc; border-width: 0 0 1px 1px; padding: .3em; }
+
+/* links, and titles with links */
+:link, :visited { text-decoration: none; color: #ff7f00;}
+
+
+:link:hover, :visited:hover { border-bottom: solid 1px; }
+:link img, :visited img { border: none }
+h1 :link, h1 :visited ,h2 :link, h2 :visited, h3 :link, h3 :visited,
+h4 :link, h4 :visited, h5 :link, h5 :visited, h6 :link, h6 :visited {
+  color: #87b900;
+}
+
+#navigation { background: #b00; color: #fff; font-size: 90%; margin: 0 -20px;
+  padding: .2em .5em; text-align: right;
+}
+#navigation :link, #navigation :visited { border: none; color: #fff; }
+#navigation :link:hover, #navigation :visited:hover { background: #fff;
+  color: #b00;
+}
+#navigation span.projinfo { float: left; }
+#footer { border-top: 1px solid #d7d7d7; color: #666; font-size: 90%;
+  margin: 8em -20px 0; padding: .5em 0 2em; text-align: center;
+}
+#footer :link, #footer :visited { color: #666; }
+
+div.document {
+  background: #fff;
+  border-left: 2px solid #87b900; border-right: 2px solid #87b900;
+  margin: 0 auto 0 40px; min-height: 100%;
+  padding: 0 300px 1px 20px; width: 700px;
+}
+
+/* content bar with index */
+div.contents {
+  font-size: 90%; position: absolute; position: fixed;
+  margin-left: 81px; left: 60em; top: 30px; /*right: 0;*/ bottom: 40px;
+  overflow: auto; overflow-x: hidden;
+}
+div.contents .topic-title { display: none; }
+div.contents ul { list-style: none; padding-left: 1em; }
+div.contents>ul { padding-left: 0; }
+
+div.contents .auto-toc :link, div.contents .auto-toc :visited {
+  color: #e9e9e9; border: none; display: block; font-weight: bold;
+  padding: 1px 5px 2px 10px;
+}
+div.contents .auto-toc :link:hover, div.contents .auto-toc :visited:hover {
+  background: #000; color: #fff;
+}
+div.contents .auto-toc .auto-toc :link,
+div.contents .auto-toc .auto-toc :visited { color: #c6c6c6;
+  font-weight: normal;
+}
+
+
+/* misc */
+h1.title, div.document#preface h1 { border: none; color: #87b900;
+  font-size: x-large; margin: 0 -20px 1em; padding: 2em 20px 0;
+}
+h1.title { background: url(vertbars.png) repeat-x; }
+div.document#preface h1.title { text-indent: -4000px; }
+div.document#preface h1 { text-align: center; }
+pre.literal-block, div.highlight pre { background: #f4f4f4;
+  border: 1px solid #e6e6e6; color: #000; margin: 1em 1em; padding: .25em;
+  overflow: auto;
+}
+
+table.field-list { border-collapse: collapse; }
+table.field-list th.field-name { color: #333; font-weight: normal;
+  text-align: right;
+}
+table.field-list td { border-width: 1px; }
+
+
+div.admonition, div.attention, div.caution, div.danger, div.error, div.hint,
+div.important, div.note, div.tip, div.warning {
+  border: none; color: #333; font-style: italic; margin: 1em 2em;
+}
+div.attention p.admonition-title, div.caution p.admonition-title, div.danger
+p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title { color: #b00;}
+p.admonition-title { margin-bottom: 0; text-transform: uppercase; }
+tt.docutils { background-color: transparent; }
+span.pre { white-space: normal; }
+
+/* sections */
+div.section { margin-left: 1.5em; }
+div.section h1 { margin-left: -1em; }
+div.section div.section { margin-left: 0; }
+div.section div.section {
+  border: solid 1px #eee;
+  border-radius: 10px 10px;
+  padding: 1em;
+}
+div.section div.section { margin-bottom: 4em; } 
+div.section div.section div.section { margin-bottom: 0; }
+
+</style>
+</head>
+<body>
+<div class="document" id="recettes">
+<h1 class="title">Recettes</h1>
+
+<!-- -*- mode: rst -*- -->
+<!-- compile with:
+$ rst2html recettes.txt - -stylesheet=recettes.css > recettes.html -->
+<div class="contents topic" id="index">
+<p class="topic-title first">Index</p>
+<ul class="simple">
+<li><a class="reference internal" href="#generalites" id="id1">Généralités</a><ul>
+<li><a class="reference internal" href="#apports-nutritifs" id="id2">Apports nutritifs</a></li>
+<li><a class="reference internal" href="#ingredients-elementaires" id="id3">Ingrédients élémentaires</a></li>
+<li><a class="reference internal" href="#liens" id="id4">Liens</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#salades" id="id5">Salades</a><ul>
+<li><a class="reference internal" href="#vinaigrette" id="id6">Vinaigrette</a></li>
+<li><a class="reference internal" href="#salade-de-fenouil" id="id7">Salade de fenouil</a></li>
+<li><a class="reference internal" href="#salade-de-fromage-poisson" id="id8">Salade de fromage/poisson</a></li>
+<li><a class="reference internal" href="#salade-d-endives-au-roquefort" id="id9">Salade d'endives au roquefort</a></li>
+<li><a class="reference internal" href="#salade-fenouil-chevre-pommes" id="id10">Salade fenouil-chèvre-pommes</a></li>
+<li><a class="reference internal" href="#salade-de-riz" id="id11">Salade de riz</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#entrees" id="id12">Entrées</a><ul>
+<li><a class="reference internal" href="#asperges-a-la-flamande" id="id13">Asperges à la flamande</a></li>
+<li><a class="reference internal" href="#peches-au-thon" id="id14">Pêches au thon</a></li>
+<li><a class="reference internal" href="#tomates-farcies-au-gruyere" id="id15">Tomates farcies au gruyère</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#soupes" id="id16">Soupes</a><ul>
+<li><a class="reference internal" href="#soupe-de-legumes" id="id17">Soupe de légumes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plats" id="id18">Plats</a><ul>
+<li><a class="reference internal" href="#pates-a-la-la-sauce-tomate-soja" id="id19">Pâtes à la la sauce tomate-soja</a></li>
+<li><a class="reference internal" href="#pates-orientales" id="id20">Pâtes orientales</a></li>
+<li><a class="reference internal" href="#boulghour-lentilles" id="id21">Boulghour lentilles</a></li>
+<li><a class="reference internal" href="#pommes-de-terre-au-curcuma" id="id22">Pommes de terre au curcuma</a></li>
+<li><a class="reference internal" href="#pommes-de-terres-sautees" id="id23">Pommes de terres sautées</a></li>
+<li><a class="reference internal" href="#quiche-lorraine" id="id24">Quiche lorraine</a></li>
+<li><a class="reference internal" href="#cotes-de-porc-au-roquefort" id="id25">Côtes de porc au roquefort</a></li>
+<li><a class="reference internal" href="#riz-oriental" id="id26">Riz oriental</a></li>
+<li><a class="reference internal" href="#crevettes-thai" id="id27">Crevettes Thaï</a></li>
+<li><a class="reference internal" href="#tartiflette" id="id28">Tartiflette</a></li>
+<li><a class="reference internal" href="#gratin-de-pommes-de-terre-et-choux-fleurs" id="id29">Gratin de pommes de terre et choux-fleurs</a></li>
+<li><a class="reference internal" href="#lentilles-corail-au-masala" id="id30">Lentilles corail au masala</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#galettes-et-preparation-de-legumes" id="id31">Galettes et préparation de légumes</a><ul>
+<li><a class="reference internal" href="#galettes-de-pommes-de-terre" id="id32">Galettes de pommes de terre</a></li>
+<li><a class="reference internal" href="#fallafels" id="id33">Fallafels</a></li>
+<li><a class="reference internal" href="#galettes-de-pois-chiche" id="id34">Galettes de pois-chiche</a></li>
+<li><a class="reference internal" href="#steaks-de-soja" id="id35">Steaks de soja</a></li>
+<li><a class="reference internal" href="#galettes-de-legumes" id="id36">Galettes de légumes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pate-pains-pizza-galettes" id="id37">Pâte : pains, pizza, galettes</a><ul>
+<li><a class="reference internal" href="#pain-a-la-machine" id="id38">Pain à la machine</a></li>
+<li><a class="reference internal" href="#brioche" id="id39">Brioche</a></li>
+<li><a class="reference internal" href="#sukerbole-pain-au-sucre" id="id40">Sûkerbôle (pain au sucre)</a></li>
+<li><a class="reference internal" href="#pain-pita" id="id41">Pain pita</a></li>
+<li><a class="reference internal" href="#pain-perdu" id="id42">Pain perdu</a></li>
+<li><a class="reference internal" href="#pate-a-pizza" id="id43">Pâte à pizza</a></li>
+<li><a class="reference internal" href="#crepes" id="id44">Crèpes</a></li>
+<li><a class="reference internal" href="#crepes-sans-oeufs" id="id45">Crèpes sans œufs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pates-et-tartinades-vegetales" id="id46">Patés et tartinades végétales</a><ul>
+<li><a class="reference internal" href="#pate-de-pois-chiche-au-curry" id="id47">Pâté de pois-chiche au curry</a></li>
+<li><a class="reference internal" href="#pate-vegetal-de-pois-chiche" id="id48">Pâté végétal de pois-chiche</a></li>
+<li><a class="reference internal" href="#caviar-d-aubergines" id="id49">Caviar d'aubergines</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#desserts" id="id50">Desserts</a><ul>
+<li><a class="reference internal" href="#flan-au-caramel" id="id51">Flan au caramel</a></li>
+<li><a class="reference internal" href="#tarte-a-la-rhubarbe" id="id52">Tarte à la rhubarbe</a></li>
+<li><a class="reference internal" href="#tarte-a-la-rhubarbe-meringuee" id="id53">Tarte à la rhubarbe meringuée</a></li>
+<li><a class="reference internal" href="#creme-de-cacao" id="id54">Crème de cacao</a></li>
+<li><a class="reference internal" href="#creme-caramel" id="id55">Crème caramel</a></li>
+<li><a class="reference internal" href="#gateau-aux-blancs-d-oeufs" id="id56">Gateau aux blancs d'œufs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#jus-de-fruits" id="id57">Jus de fruits</a></li>
+<li><a class="reference internal" href="#laits" id="id58">Laits</a><ul>
+<li><a class="reference internal" href="#lait-de-riz" id="id59">Lait de riz</a></li>
+<li><a class="reference internal" href="#lait-de-soja" id="id60">Lait de soja</a></li>
+<li><a class="reference internal" href="#creme-de-soja" id="id61">Crème de soja</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#epices" id="id62">Epices</a><ul>
+<li><a class="reference internal" href="#masala" id="id63">Masala</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sauces" id="id64">Sauces</a><ul>
+<li><a class="reference internal" href="#sauce-blanche" id="id65">Sauce blanche</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cocktails" id="id66">Cocktails</a><ul>
+<li><a class="reference internal" href="#advocaat" id="id67">Advocaat</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="generalites">
+<h1><a class="toc-backref" href="#id1">Généralités</a></h1>
+<div class="section" id="apports-nutritifs">
+<h2><a class="toc-backref" href="#id2">Apports nutritifs</a></h2>
+<dl class="docutils">
+<dt>glucides</dt>
+<dd>céréales (pain, riz, pâtes), pommes de terre, lentille, bananes, ...</dd>
+<dt>fibres</dt>
+<dd>pois et haricots secs, fruits secs et frais, céréales complètes,
+pomme de terre, carotte. Absents dans les produits d'origine animale.</dd>
+<dt>sucres</dt>
+<dd>utiliser plutôt aliments complets (fruits …) qui possèdent également
+fibres. Surabondants, ils sont transformés en corps gras</dd>
+<dt>protéines</dt>
+<dd><p class="first">protéines complètes (23 acides aminés) abondantes dans les produits
+animaux (viande, oeufs, produits laitiers), présentes dans les
+produits végétaux mais pas toutes aussi abondament partout: manger
+le plus varié possible et tendre à associer légumineuses et
+céréales.</p>
+<p class="last">Les légumineuses possèdent beaucoup de protides: lentilles, soja,
+pois-chiches, haricots.</p>
+</dd>
+<dt>vitamines</dt>
+<dd><ul class="first last simple">
+<li>vitamine B12 presque absente chez les végétaux: produits laitiers,
+oeufs, algues, luzerne…</li>
+<li>B1 (thiamine) : graines soja, germes de blé, haricots secs</li>
+<li>B2 (rhiboflavine) : produits laitiers, champignons, graines de
+soja, légumes verts</li>
+<li>B3 (acide nicotinique) : champignons, graines de sésame et de
+tournesol</li>
+<li>B6 (pyridoxine) : raisins secs, bananes, graines de tournesol et
+soja</li>
+<li>acide folique : salade verte, endive, oranges, noix, amandes,
+avocats</li>
+<li>vitamine C : légumes verts à feuilles, tomates, poivrons, mûres,
+oranges, fraises …</li>
+<li>vitamines A, D, E, K (vitamines liposolubles) : huiles, beures,
+fruits, graines oléagineux. L'humain exposé au soleil fabrique de
+la vitamine D</li>
+</ul>
+</dd>
+<dt>sels minéraux</dt>
+<dd><ul class="first last simple">
+<li>fer : légumes secs, céréale complètes, fruits oléagineux, légumes
+verts, fruits secs</li>
+<li>calcium : produits laitiers, mais aussi le sésame, soja, figues,
+fruits secs, levure de bière, algues</li>
+<li>zinc, magniesium</li>
+<li>iode : sel iodé, algues</li>
+</ul>
+</dd>
+<dt>lipides</dt>
+<dd><ul class="first last simple">
+<li>acides gras saturés : produits animaux [pas très bons]</li>
+<li>acides gras polyinsaturés</li>
+<li>acides gras monoinsaturés (huile d'olive, colza) [bons]</li>
+</ul>
+</dd>
+<dt>super-aliments</dt>
+<dd>très riches en valeurs nutritive, peuvent substituer la viande:
+lentilles, soja, flocons d'avoine, son de blé, œufs, abricots secs,
+produits laitiers, épinards, graines de sésame, tofu/tempeh,
+extraits de levure</dd>
+</dl>
+</div>
+<div class="section" id="ingredients-elementaires">
+<h2><a class="toc-backref" href="#id3">Ingrédients élémentaires</a></h2>
+<dl class="docutils">
+<dt>céréales</dt>
+<dd><p class="first">Base alimentaire, riches en glucides, souvent en fibres</p>
+<ul class="last simple">
+<li>pâtes</li>
+<li>riz thaï en grand sacs de chez le chinois, le faire cuire au
+rice-cooker</li>
+<li>polenta: semoule de maïs avec de l'eau ( 1 CàC. d'huile, épices
+éventuelles)</li>
+<li>boulghour: un sous-produit du blé, utilisé pour le taboulé</li>
+<li>pain: utiliser une machine à pain</li>
+</ul>
+</dd>
+<dt>légumineuses</dt>
+<dd><p class="first">Riches en protéines.</p>
+<p>Les acheter séchées. Pour les préparer il faut les faire tremper 1
+journée pour les pois-chiche, 1h pour le soja. On peut ensuite les
+faire gérmer ou les faire cuire. Les pois-chiches et le soja sont
+intéressants mixés en purée pour faire des pâtés végétaux ou des
+additifs/sauces.</p>
+<p class="last">attention, le soja est toxique et il ne faut pas l'utiliser trop
+régulièrement
+(<a class="reference external" href="http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite">http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite</a>)</p>
+</dd>
+<dt>légumes et fruits frais</dt>
+<dd><p class="first">Riches en vitamines, souvent en fibres.</p>
+<ul class="last simple">
+<li>beaucoup de légumes frais sont faciles à faire en salade avec une
+sauce ou juste de l'huile: tomates, carotte (rapée), concombres,
+endive (avec du bleu) ou fenouil.</li>
+<li>pomme de terre: base alimentaire riche en glucides complexes.</li>
+<li>fruits à manger tels quels ou en jus (appareil à smoothie)</li>
+</ul>
+</dd>
+<dt>épices</dt>
+<dd><p class="first">Donnent de la saveur. Certaines épices moulues sont à brièvement
+chauffer à l'huile pour mieux libérer leur saveur (curcuma, …),
+d'autres sont à ajouter en fin de cuisson.</p>
+<ul class="last simple">
+<li>épices moulues: avoir des épices moulues composées (curry, ras-el
+hanout, 4 épices, épices tajine, …) et des épices de base
+(poivres, curcuma, cumin, coriandre, gingembre, piments,
+gingembre, cardamome, paprika canelle, clou de girofle, …). Les
+conserver en pots hérmétiques.</li>
+<li>herbes: origan, persil, thym, laurier, cerfeuil, basilic. Herbes
+composées: herbes de provence</li>
+</ul>
+</dd>
+<dt>sauces</dt>
+<dd><ul class="first last simple">
+<li>sauce soja: utile partout</li>
+<li>sauce d'huitre pour rendre asiatique (oignons)</li>
+<li>sauce tomate (concentrée)</li>
+</ul>
+</dd>
+<dt>huiles</dt>
+<dd><ul class="first last simple">
+<li>huiles de cuisson: olive (mono-insaturées), tournesol
+(poly-insaturées, omega 6)</li>
+<li>huiles d'assaisonnement: colza (poly-insaturées omega 3), noix (&quot;)</li>
+</ul>
+</dd>
+<dt>autres condiments</dt>
+<dd><ul class="first last simple">
+<li>parmesan: essentiel pour les pâtes !</li>
+<li>bouillon végétal</li>
+</ul>
+</dd>
+<dt>soupes</dt>
+<dd>…</dd>
+<dt>thés</dt>
+<dd>A acheter en vrac. Verts, noirs (assam, darjeeling), noirs
+parfumés. Utiliser une cuiller à thé pour réutiliser le thé
+plusieurs fois. Thé à la menthe: thé vert gunpowder avec de la
+menthe fraiche ou séchée, bien l'oxygéner.</dd>
+<dt>autres</dt>
+<dd><p class="first">fruits secs, confitures pour les sucres rapides, produits laitiers
+(fromages), œufs …</p>
+<ul class="last simple">
+<li>les œufs sont un liant intéressant à utiliser avec de la farine</li>
+<li>maïzena: épaississant, permet de faire des crèmes. essayer le tapioca.</li>
+<li>algues: condiment, mais le agar-agar est aussi un gélifiant</li>
+<li>laits végétaux (riz, soja)</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="liens">
+<h2><a class="toc-backref" href="#id4">Liens</a></h2>
+<dl class="docutils">
+<dt>sites de cuisine &quot;bidouillable&quot;</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://cfaitmaison.com">http://cfaitmaison.com</a></li>
+<li><a class="reference external" href="http://blog-maison-ecologique.fr">http://blog-maison-ecologique.fr</a></li>
+</ul>
+</dd>
+<dt>divers</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://saveursdefamille.canalblog.com/archives/2008/04/07/8651747.html">http://saveursdefamille.canalblog.com/archives/2008/04/07/8651747.html</a></li>
+<li><a class="reference external" href="http://cuisine-saine.fr/tag/lait-de-riz">http://cuisine-saine.fr/tag/lait-de-riz</a></li>
+<li><a class="reference external" href="http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite">http://francois.danain.free.fr/index.php?2009/06/26/95-soja-confirmation-de-la-toxicite</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="salades">
+<h1><a class="toc-backref" href="#id5">Salades</a></h1>
+<div class="section" id="vinaigrette">
+<h2><a class="toc-backref" href="#id6">Vinaigrette</a></h2>
+<ul class="simple">
+<li>1 CàC. de moutarde</li>
+<li>2 CàS d'huile</li>
+<li>1 CàS de vinaigre</li>
+<li>sel, poivre</li>
+<li>éventuellement ail, épices, ciboulette…</li>
+</ul>
+<p>Diversifier les types d'huile pour que ce soit meilleur !</p>
+<ol class="arabic simple">
+<li>mélanger les ingrédients à la fourchette en battant un peu</li>
+</ol>
+</div>
+<div class="section" id="salade-de-fenouil">
+<h2><a class="toc-backref" href="#id7">Salade de fenouil</a></h2>
+<ul class="simple">
+<li>1 belle tête de fenouil</li>
+<li>125g de bleu d'Auvergne</li>
+<li>100g de raisins secs blancs</li>
+<li>huile d'olive/colza</li>
+</ul>
+<ol class="arabic simple">
+<li>Emincer le fenouille en petits bouts, le bleu en dés moyens.</li>
+<li>Assaisonner d'un mélange d'huile de colza et d'olive, et bien mélanger.</li>
+</ol>
+</div>
+<div class="section" id="salade-de-fromage-poisson">
+<h2><a class="toc-backref" href="#id8">Salade de fromage/poisson</a></h2>
+<ul class="simple">
+<li>salade de Saint-Moret/thon/ciboulette (ou aneth)</li>
+<li>salade de Boursin/sardines</li>
+</ul>
+<p>les mélanger !</p>
+</div>
+<div class="section" id="salade-d-endives-au-roquefort">
+<h2><a class="toc-backref" href="#id9">Salade d'endives au roquefort</a></h2>
+<ul class="simple">
+<li>2 ou 3 endives</li>
+<li>125g de roquefort</li>
+<li>1 pomme</li>
+<li>cernaux de noix concassés (morceaux)</li>
+<li>haddock fumé</li>
+<li>huile de noix + huile de colza (huile d'olive bof)</li>
+</ul>
+</div>
+<div class="section" id="salade-fenouil-chevre-pommes">
+<h2><a class="toc-backref" href="#id10">Salade fenouil-chèvre-pommes</a></h2>
+<p>pour 2 personnes.</p>
+<ul class="simple">
+<li>1 fenouil</li>
+<li>fromage de chèvre (4 cs de Salakis, qui ont leur huile)</li>
+<li>1/2 pomme</li>
+<li>1 oignon</li>
+<li>1 cs de vinaigre balsamique</li>
+<li>1 cs d'huile d'olive</li>
+</ul>
+</div>
+<div class="section" id="salade-de-riz">
+<h2><a class="toc-backref" href="#id11">Salade de riz</a></h2>
+<ul class="simple">
+<li>250g de riz</li>
+<li>2 tomages</li>
+<li>1 boite de maïs</li>
+<li>2 œufs durs</li>
+<li>1 boite de thon, ou préparation de crabe, etc…</li>
+<li>olives vertes dénoyautées</li>
+<li><a class="reference internal" href="#vinaigrette">vinaigrette</a></li>
+<li>sel, poivre</li>
+</ul>
+<ol class="arabic simple">
+<li>cuire le riz et le laisser refroidir</li>
+<li>couper les œufs et les tomates</li>
+<li>ajouter les ingrédients au riz</li>
+<li>assaisonner avec la vinaigrette</li>
+<li>placer au réfrigérateur</li>
+</ol>
+</div>
+</div>
+<div class="section" id="entrees">
+<h1><a class="toc-backref" href="#id12">Entrées</a></h1>
+<div class="section" id="asperges-a-la-flamande">
+<h2><a class="toc-backref" href="#id13">Asperges à la flamande</a></h2>
+<ul class="simple">
+<li>8 asperges</li>
+<li>2 œufs</li>
+<li>75g de beurre</li>
+<li>pommes de terre</li>
+<li>persil</li>
+</ul>
+<ol class="arabic simple">
+<li>peler les asperges et enlever le bout</li>
+<li>cuire les asperges dans de l'eau salée (~10-15min)</li>
+<li>cuire le œufs durs (10min)</li>
+<li>cuire les pommes de terres</li>
+<li>faire fondre le beurre à feu doux</li>
+<li>écraser les œufs et mélanger avec le beurre et un peu de persil</li>
+<li>servir le tout en saucant avec le mélange d'œufs</li>
+</ol>
+</div>
+<div class="section" id="peches-au-thon">
+<h2><a class="toc-backref" href="#id14">Pêches au thon</a></h2>
+<p>Ingrédients:</p>
+<ul class="simple">
+<li>pêches et thon en boites</li>
+<li>mayo</li>
+<li>salade</li>
+</ul>
+<p>Préparation:</p>
+<ol class="arabic simple">
+<li>égouter le thon et le mélanger avec la mayonnaise et un peu de la
+sauce des pêches.</li>
+<li>mettre la préparation sur les demi-pêche</li>
+<li>résenter sur des feuilles de salade.</li>
+</ol>
+</div>
+<div class="section" id="tomates-farcies-au-gruyere">
+<h2><a class="toc-backref" href="#id15">Tomates farcies au gruyère</a></h2>
+<ul class="simple">
+<li>4 grosses tomages</li>
+<li>100g de gruyère</li>
+<li>4 œufs durs</li>
+<li>moutarde</li>
+<li>1,5 dl d'huile</li>
+<li>sel</li>
+</ul>
+<ol class="arabic simple">
+<li>Vider 4 grosses tomates et saler à l'intérieur</li>
+<li>Couper en dés 100 gr. de gruyère (ou de fromage de Hollande) et les
+blancs de 4 oeufs durs</li>
+<li>Écraser les jaunes avec une cuill. à café de moutarde et une pincée
+de sel et ajouter peu à peu 1,5 dl d'huile</li>
+<li>Mélanger cette sauce avec les dés de fromage et d'œufs durs et
+ajouter 2 cornichons émincés</li>
+<li>Emplir les tomates avec la préparation.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="soupes">
+<h1><a class="toc-backref" href="#id16">Soupes</a></h1>
+<div class="section" id="soupe-de-legumes">
+<h2><a class="toc-backref" href="#id17">Soupe de légumes</a></h2>
+<ul class="simple">
+<li>3 oignons</li>
+<li>1 gousse d'ail</li>
+<li>épices : thym, coriandre, gingembre, piment, sel, poivre…</li>
+<li>légumes: courgettes, patissons, carottes…</li>
+</ul>
+<ol class="arabic simple">
+<li>faire revenir les oignons et l'ail avec les épices dans un grand wok</li>
+<li>couper les légumes en dés et les incorporer dans le wok</li>
+<li>ajouter de la crême fraiche et du lait et mixer le tout</li>
+</ol>
+</div>
+</div>
+<div class="section" id="plats">
+<h1><a class="toc-backref" href="#id18">Plats</a></h1>
+<div class="section" id="pates-a-la-la-sauce-tomate-soja">
+<h2><a class="toc-backref" href="#id19">Pâtes à la la sauce tomate-soja</a></h2>
+<ul class="simple">
+<li>pâtes</li>
+<li>graines de soja séchées</li>
+<li>sauce tomate</li>
+<li>2 oignons</li>
+<li>1 gousse d'ail</li>
+<li>huile d'olive</li>
+<li>sauce soja</li>
+<li>olives</li>
+<li>épices : sel, poivre, cumin</li>
+<li>parmesan</li>
+</ul>
+<ol class="arabic simple">
+<li>faire tremper les graines de soja 1h, puis les cuire 20min et les
+mixer en purée</li>
+<li>commencer à faire cuire les pâtes</li>
+<li>faire revenir les oignons, l'ail et les épices sur l'huile</li>
+<li>rajouter à la sauce la purée de soja avec un peu d'eau, un peu de
+sauce soja, puis la sauce tomate et des olives</li>
+<li>mélanger la sauce aux pâtes, saupoudrer de parmesan</li>
+</ol>
+</div>
+<div class="section" id="pates-orientales">
+<h2><a class="toc-backref" href="#id20">Pâtes orientales</a></h2>
+<ul class="simple">
+<li>pâtes</li>
+<li>oeufs</li>
+<li>sauce d'huitre (il en existe des végétariennes)</li>
+<li>oignons</li>
+<li>sel, poivre, épices (un peu de curry va, mais peut-être pas trop)</li>
+<li>huile d'olive</li>
+</ul>
+<ol class="arabic simple">
+<li>faire cuire les pâtes</li>
+<li>faire revenir les oignons dans un wok, avec un peu d'huile</li>
+<li>rajouter de la sauce à l'huitre et épicer</li>
+<li>rajouter des oeufs</li>
+</ol>
+</div>
+<div class="section" id="boulghour-lentilles">
+<h2><a class="toc-backref" href="#id21">Boulghour lentilles</a></h2>
+<ul class="simple">
+<li>200g de boulghour</li>
+<li>200g de lentilles (les lentilles corail vont très vite à faire)</li>
+<li>2 gros oignons</li>
+<li>2 gousses d'ail</li>
+<li>légumes: tomates…</li>
+<li>épices: coriandre, persil frais, …</li>
+</ul>
+<ol class="arabic simple">
+<li>recouvrir le boulghour salé d'eau bouillante salée</li>
+<li>cuire les lentilles à l'eau</li>
+<li>faire revenir les oignons et l'ail à feu doux, épicer avec la
+coriandre</li>
+<li>mélanger le tout dans la poelle, ajouter les légumes, soupoudrer de
+persil</li>
+</ol>
+</div>
+<div class="section" id="pommes-de-terre-au-curcuma">
+<h2><a class="toc-backref" href="#id22">Pommes de terre au curcuma</a></h2>
+<ul class="simple">
+<li>pommes de terres</li>
+<li>du curcuma</li>
+<li>des citrons confits</li>
+</ul>
+<ol class="arabic simple">
+<li>Couper les pommes de terres en dés.</li>
+<li>Quelques cuillères à soupe d'huile au fond de la casserolle, 1 à 2
+petites cuillère à café du curcuma.</li>
+<li>Mettre un peu d'eau pour pas faire brûler, mettre les pommes de
+terre et les recouvrir d'eau.</li>
+<li>Mettre 1/2 citron confit coupé en petits morceaux, 1 gousse
+d'aille, un peu de sel.</li>
+<li>Faire mijoter à feu doux à moitié sous couvercle.</li>
+</ol>
+</div>
+<div class="section" id="pommes-de-terres-sautees">
+<h2><a class="toc-backref" href="#id23">Pommes de terres sautées</a></h2>
+<ul class="simple">
+<li>pommes de terre</li>
+<li>oignons</li>
+<li>épices: curry</li>
+</ul>
+<ol class="arabic simple">
+<li>faire revenir des oignons à la poele avec des épices</li>
+<li>couper les pommes de terres en dés, les ajouter et compléter avec
+de l'eau</li>
+</ol>
+</div>
+<div class="section" id="quiche-lorraine">
+<h2><a class="toc-backref" href="#id24">Quiche lorraine</a></h2>
+<p>Ingrédients:</p>
+<ul class="simple">
+<li>pâte feuilletée</li>
+<li>2 oeufs</li>
+<li>fromage rapé</li>
+<li>herbes de provence</li>
+<li>crème fraiche légère (20cl)</li>
+<li>lardons, oignon, 1 boite de champignons de paris</li>
+</ul>
+<p>Préparation:</p>
+<ol class="arabic simple">
+<li>Faire des trous dans la pâte avec une fourchette.</li>
+<li>Faire revenir les lardons, les oignons et les champignons de paris,
+soupoudrer d'herbes de provence et mettre cette garniture sur la
+pâte.</li>
+<li>Mélanger les oeufs, la crème et un peu de fromage rapé dans un bol,
+et verser le tout sur la garniture.</li>
+<li>Soupoudrer le tout de fromage rapé</li>
+<li>cuire au four (20 min à 200 degrés environ)</li>
+</ol>
+</div>
+<div class="section" id="cotes-de-porc-au-roquefort">
+<h2><a class="toc-backref" href="#id25">Côtes de porc au roquefort</a></h2>
+<p>Pour 4 personnes.</p>
+<ol class="arabic simple">
+<li>Assaisonner les côtes de porc et les sauter au beurre (cuisson
+complète), sitôt cuites les retirer et les garder au chaud</li>
+<li>Égoutter une partie de la graisse de cuisson et y cuire l'échalote
+(ou l'oignon) hachée sans coloration</li>
+<li>Déglacer au vin blanc (1 dl de vin de table) et réduire des 2/3</li>
+<li>Ajouter 2,5 dl de crème fraîche et ensuite le roquefort écrasé à la
+fourchette</li>
+<li>Cuire quelques instants jusqu'à onctuosité voulue de la sauce et
+rectifier l'assaisonnement</li>
+</ol>
+</div>
+<div class="section" id="riz-oriental">
+<h2><a class="toc-backref" href="#id26">Riz oriental</a></h2>
+<p>Pour 4 personnes.</p>
+<ol class="arabic simple">
+<li>Faire cuire le riz</li>
+<li>Couper 100 gr. de lard fumé maigre en dés</li>
+<li>Mettre à rissoler avec un gros oignon dans 3 cuill. à soupe d'huile
+ainsi que 100 gr. de champignons émincés</li>
+<li>Ajouter 600 (à 800 gr., ça dépend de la faim des convives) de haché
+de porc-veau et 50 à 100 gr. de crabe (une boîte de crabe en
+morceaux, c'est moins cher) et faire cuire 5 minutes en tournant</li>
+<li>Mélanger avec le riz et 3 oeufs entiers battus dans un moule à
+soufflé bien beurré (pour éviter que ça n'attache)</li>
+<li>Faire cuire 20 minutes à four moyen ;</li>
+</ol>
+</div>
+<div class="section" id="crevettes-thai">
+<h2><a class="toc-backref" href="#id27">Crevettes Thaï</a></h2>
+<ul class="simple">
+<li>crevettes</li>
+<li>boite de lait de coco</li>
+<li>boite de pâte de curry (deux cuillères à soupe de curry normal ou une noisette de curry vert)</li>
+</ul>
+<ol class="arabic simple">
+<li>Faire revenir les crevettes à la poile</li>
+<li>rajouter la boite de coco</li>
+<li>rajouter un peu de curry</li>
+</ol>
+</div>
+<div class="section" id="tartiflette">
+<h2><a class="toc-backref" href="#id28">Tartiflette</a></h2>
+<ul class="simple">
+<li>pommes de terre</li>
+<li>reblochon</li>
+<li>oignons</li>
+<li>lardons</li>
+</ul>
+<ol class="arabic simple">
+<li>cuire à l'eau les pommes de terre coupées en tranches</li>
+<li>faire revenir les lardons et oignons à la poelle (garniture)</li>
+<li>dans un plat (à flan) mettre les pommes de terre, la garniture, et
+le reblochon en coupé en tranche. Bien répartir pour avoir du
+reblochon sur le dessus</li>
+<li>mettre brièvement au four</li>
+</ol>
+<p>Alternative : on peut aussi faire le tout à la poelle.</p>
+</div>
+<div class="section" id="gratin-de-pommes-de-terre-et-choux-fleurs">
+<h2><a class="toc-backref" href="#id29">Gratin de pommes de terre et choux-fleurs</a></h2>
+<ul class="simple">
+<li>1,2kg de patates</li>
+<li>1 petit paquet de choux-fleur</li>
+<li>3 oignons</li>
+<li>4 CàS de farine</li>
+<li>50g de beurre environ</li>
+<li>1/2 de lait</li>
+<li>noix de muscade</li>
+</ul>
+<ol class="arabic simple">
+<li>éplucher les patates, les couper en rondelles/dés et les faire cuire</li>
+<li>éplucher, couper les oignons et les faire cuire à la poële</li>
+<li>couper le choux-fleur (pas besoin de le pré-cuire)</li>
+<li>faire une béchamel en fondant le beurre, le mélangant à la farine puis au lait</li>
+<li>mettre le tout dans un plat (à flanc), saupoudrer de fromage</li>
+<li>cuire 10 min à 220°C</li>
+</ol>
+</div>
+<div class="section" id="lentilles-corail-au-masala">
+<h2><a class="toc-backref" href="#id30">Lentilles corail au masala</a></h2>
+<ul class="simple">
+<li>lentilles corail</li>
+<li><a class="reference internal" href="#masala">masala</a></li>
+</ul>
+<p>A servir avec des chapati, des paratahs ou du riz.</p>
+</div>
+</div>
+<div class="section" id="galettes-et-preparation-de-legumes">
+<h1><a class="toc-backref" href="#id31">Galettes et préparation de légumes</a></h1>
+<div class="section" id="galettes-de-pommes-de-terre">
+<h2><a class="toc-backref" href="#id32">Galettes de pommes de terre</a></h2>
+<p>Très facile à faire avec un robot, à la main râper prends beaucoup de
+temps.</p>
+<ul class="simple">
+<li>1kg de pommes de terre</li>
+<li>2 oeufs</li>
+<li>3 CàS de farine</li>
+<li>sel, poivre</li>
+<li>ail</li>
+<li>huile</li>
+</ul>
+<ol class="arabic simple">
+<li>éplucher les pommes de terre puis les raper, les rincer et les
+égoutter à la passoire</li>
+<li>rajouter les oeufs, assaisonner (ail, ciboulette, sel, poivre)</li>
+<li>rajouter de la farine jusqu'à ce que la consistence soit bonne</li>
+<li>constituer des galettes et les faire revenir à l'huile</li>
+</ol>
+</div>
+<div class="section" id="fallafels">
+<h2><a class="toc-backref" href="#id33">Fallafels</a></h2>
+<ul class="simple">
+<li>pois-chiche</li>
+<li>oignons</li>
+<li>curry</li>
+<li>sel, poivre</li>
+<li>huile (pour friture)</li>
+</ul>
+<ol class="arabic simple">
+<li>faire reposer les pois-chiches 24h dans de l'eau</li>
+<li>faire revenir des oignons assaisonés avec du curry, sel et poivre</li>
+<li>mélanger le tout et passer au mixer</li>
+<li>faire des boulettes</li>
+<li>faire chauffer un gros fond d'huile dans une casserole, et faire
+frire les boulettes</li>
+</ol>
+<p>Servir avec un <a class="reference internal" href="#pain-pita">pain pita</a>, de la <a class="reference internal" href="#sauce-blanche">sauce blanche</a> et des légumes
+(salades, tomates, oignons)</p>
+</div>
+<div class="section" id="galettes-de-pois-chiche">
+<h2><a class="toc-backref" href="#id34">Galettes de pois-chiche</a></h2>
+<p>Ingrédients:</p>
+<ul class="simple">
+<li>3 oignons</li>
+<li>250g de farine de pois-chiche</li>
+<li>250ml d'eau</li>
+<li>1 CàS de curry</li>
+<li>1 CàS de persil</li>
+<li>sel, poivre</li>
+</ul>
+<p>Préparation:</p>
+<ol class="arabic simple">
+<li>Couper les oignons en petits morceaux, les faire revenir dans
+l'huile à feux doux avec le curry.</li>
+<li>dans un bol, mettre la farine de pois-chiche, sel, poivre et
+persil, rajouter progressivement de l'eau pour obtenir une
+consistence semi-liquide</li>
+<li>mettre les oignons dans le bol</li>
+<li>dans une poile avec de l'huile, former les galettres avec 1 CàS de
+mélange et faire chauffer des deux côtés.</li>
+</ol>
+</div>
+<div class="section" id="steaks-de-soja">
+<h2><a class="toc-backref" href="#id35">Steaks de soja</a></h2>
+<p>Idéal pour réutiliser l'okara, ce qui reste lors de la fabrication du
+lait de soja. Pour 2 steaks :</p>
+<ul class="simple">
+<li>okara d'1 tournée de lait de soja</li>
+<li>3 CàS de farine</li>
+<li>un peu de chapelure de pain</li>
+<li>1 oignon</li>
+<li>1 gousse d'ail</li>
+<li>2 CàC. de curry</li>
+<li>sel, poivre</li>
+<li>1 léchouille de sauce soja</li>
+<li>goutte d'huile d'olive</li>
+</ul>
+<ol class="arabic simple">
+<li>découper finement l'oignon</li>
+<li>mélanger le tout, presser l'ail</li>
+<li>cuire à la poële à l'huile pendant 10 min</li>
+</ol>
+</div>
+<div class="section" id="galettes-de-legumes">
+<h2><a class="toc-backref" href="#id36">Galettes de légumes</a></h2>
+<ul class="simple">
+<li>légumes</li>
+<li>1 oeuf</li>
+<li>2 CàS de farine</li>
+<li>sel, poivre</li>
+<li>huile d'olive</li>
+</ul>
+<ol class="arabic simple">
+<li>raper les légumes</li>
+<li>mélanger les ingrédients pour consituer des galettes</li>
+<li>faire chauffer à la poêle</li>
+</ol>
+</div>
+</div>
+<div class="section" id="pate-pains-pizza-galettes">
+<h1><a class="toc-backref" href="#id37">Pâte : pains, pizza, galettes</a></h1>
+<div class="section" id="pain-a-la-machine">
+<h2><a class="toc-backref" href="#id38">Pain à la machine</a></h2>
+<p>recette à la machine à pain (MAP)</p>
+<ul class="simple">
+<li>300g d'eau</li>
+<li>500g de farine</li>
+<li>1 sachet de levure boulangère</li>
+<li>1 CàC. de sel</li>
+<li>1 CàC. de sucre</li>
+</ul>
+<ol class="arabic simple">
+<li>mettre tous les ingrédients dans l'ordre dans la cuve</li>
+<li>lancer la MAP en mode &quot;pain&quot; (3h)</li>
+</ol>
+<p>On peut ajouter des graines (de tournesol) à saupoudrer une fois la
+pâte faite (après le beep).</p>
+</div>
+<div class="section" id="brioche">
+<h2><a class="toc-backref" href="#id39">Brioche</a></h2>
+<p>recette à la machine à pain (MAP)</p>
+<ul class="simple">
+<li>220ml d'eau</li>
+<li>4 jaunes d'œufs</li>
+<li>100g de beurre fondu</li>
+<li>4 CàS de sucre</li>
+<li>2 sachets de sucre vanillé</li>
+<li>500g de farine</li>
+<li>1/2 sachet de levure boulangère</li>
+</ul>
+<ol class="arabic simple">
+<li>mettre tous les ingrédients dans l'ordre dans la cuve</li>
+<li>lancer la MAP en mode &quot;pain&quot;</li>
+</ol>
+</div>
+<div class="section" id="sukerbole-pain-au-sucre">
+<h2><a class="toc-backref" href="#id40">Sûkerbôle (pain au sucre)</a></h2>
+<p>recette à la machine à pain (MAP)</p>
+<ul class="simple">
+<li>150ml de lait</li>
+<li>2 œufs</li>
+<li>30g de beurre</li>
+<li>1 CàC. de canelle</li>
+<li>1 CàC. de gingembre (ou 3 CàS de sirop de gingembre)</li>
+<li>400g de farine T65</li>
+<li>20g de sucre cristal</li>
+<li>180g de sucre en morceaux</li>
+<li>1 sachet de levure boulangère</li>
+<li>1 CàC. de sel</li>
+</ul>
+<ol class="arabic simple">
+<li>faire fondre le beurre dans un poêllon</li>
+<li>mettre dans la MAP le lait, les œufs, le beurre, le gingembre, la
+farine, la levure et le sel</li>
+<li>mettre la MAP en programme &quot;pâte&quot;, pendant 1h30</li>
+<li>casser les sucres en morceau en 4</li>
+<li>enlever la pâte, mettre les morceaux de sucre et la canelle dedans</li>
+<li>enrober l'extérieur de la pâte de sucre cristal (pour qu'elle
+caramelise)</li>
+<li>remettre dans la MAP et laisser reposer 2h</li>
+<li>mettre la MAP en mode cuisson pendant 50min</li>
+</ol>
+<p>Remarque : on ne met pas les morceaux de sucre pendant le petrissage
+pour ne pas abimer la MAP.</p>
+</div>
+<div class="section" id="pain-pita">
+<h2><a class="toc-backref" href="#id41">Pain pita</a></h2>
+<p>À la MAP</p>
+<ul class="simple">
+<li>300ml d’eau tiède</li>
+<li>500g de farine</li>
+<li>1 sachet de levure de boulanger</li>
+<li>1 CàC. de sel</li>
+<li>1 CàC. de sucre roux</li>
+</ul>
+<ol class="arabic simple">
+<li>Verser les ingrédients dans la cuve</li>
+<li>mettre en programme &quot;pâte&quot;</li>
+<li>sortir et couper pour faire 8 parts</li>
+<li>étaler pour faire des cercles plats</li>
+<li>laisser reposer 1/2h</li>
+<li>cuire à la poëlle et retourner au bout de 2min</li>
+</ol>
+</div>
+<div class="section" id="pain-perdu">
+<h2><a class="toc-backref" href="#id42">Pain perdu</a></h2>
+<ul class="simple">
+<li>pain rassi</li>
+<li>lait</li>
+<li>oeufs</li>
+<li>sucre</li>
+<li>sucre vanillé</li>
+</ul>
+<p>à refaire pour voir</p>
+</div>
+<div class="section" id="pate-a-pizza">
+<h2><a class="toc-backref" href="#id43">Pâte à pizza</a></h2>
+<p>Ingrédients pour pâte à pizza à la machine à pain :</p>
+<ul class="simple">
+<li>200ml? d'eau tiède</li>
+<li>4 CàS d'huile d'olive</li>
+<li>500g de farine (en garder un peu pour mettre sur la planche pour pas que ça colle)</li>
+<li>1 CàC. de sel</li>
+<li>eventuellementt herbes de provence et fromage râpé</li>
+</ul>
+<p>Faire la pâte</p>
+<ol class="arabic simple">
+<li>mettre les ingrédients dans l'ordre ci-dessus</li>
+<li>régler sur le programme &quot;pâte&quot;</li>
+<li>étaler avec un rouleau à patisserie</li>
+<li>améliorer éventuellement les bords en y insérant des lamelles de mozarella puis en repliant la pâte dessus</li>
+<li>précuire la pâte au four 5 min à 280°C</li>
+<li>y ajouter une garniture puis mettre 30 min au four</li>
+</ol>
+<p>Comme garniture utiliser par exemple :</p>
+<ul class="simple">
+<li>coulis de tomage (sauce concentrée)</li>
+<li>oignons, champignons, lardons</li>
+<li>fromage fondu (croc-monsieur), mozzarella fromage de chèvre</li>
+<li>légumes : poivrons, tomate, olives</li>
+<li>œuf à rajouter 5 minutes avant la fin</li>
+</ul>
+</div>
+<div class="section" id="crepes">
+<h2><a class="toc-backref" href="#id44">Crèpes</a></h2>
+<ul class="simple">
+<li>250g de farine (blé normal ou sarrasin)</li>
+<li>2 œufs</li>
+<li>1 CàS d'huile</li>
+<li>1/2 CàC. de sel</li>
+<li>eau / lait : ? (50 cl)</li>
+</ul>
+<ol class="arabic simple">
+<li>mettre la farine dans un saldier, y faire un puit</li>
+<li>mettre les œufs, le sel, l'huile</li>
+<li>au fouet, incorporer la farine en versant lait/eau et battre
+jusqu'a obtenir une consistance visqueuse</li>
+<li>laisser reposer 2 heures (pour une meilleure texture)</li>
+</ol>
+</div>
+<div class="section" id="crepes-sans-oeufs">
+<h2><a class="toc-backref" href="#id45">Crèpes sans œufs</a></h2>
+<p>Pour 8 crèpes environ :</p>
+<ul class="simple">
+<li>250g de farine</li>
+<li>3 CàS de maïzena</li>
+<li>1/2 de lait (ou de lait de soja)</li>
+<li>1 pincée de sel</li>
+<li>huile (pour la cuisson)</li>
+</ul>
+<ol class="arabic simple">
+<li>mélanger farine, maïzena et sel</li>
+<li>ajouter progressivement du lait jusqu'a obtention d'une texture
+semi-liquide</li>
+<li>cuire à la poële à feu fort. rajouter un peu d'huile au fur et à
+mesure à l'aide d'un papier</li>
+<li>laisser reposer 1h (pour une une meilleure texture)</li>
+</ol>
+<p>Il est possible de faire la recette en remplacerle lait par du lait de
+soja ou même de l'eau mais il faut laisser reposer plus longtemps.</p>
+</div>
+</div>
+<div class="section" id="pates-et-tartinades-vegetales">
+<h1><a class="toc-backref" href="#id46">Patés et tartinades végétales</a></h1>
+<div class="section" id="pate-de-pois-chiche-au-curry">
+<h2><a class="toc-backref" href="#id47">Pâté de pois-chiche au curry</a></h2>
+<ul class="simple">
+<li>150g de farine de pois-chiche</li>
+<li>50cl d'eau</li>
+<li>2 carottes</li>
+<li>2 échalottes</li>
+<li>1 gousse d'ail</li>
+<li>3 CàC. de curry</li>
+<li>5 CàS d'huile d'olive</li>
+<li>quelques feuilles de céléri (facultatif)</li>
+</ul>
+<ol class="arabic simple">
+<li>Délayer la farine de pois chiche avec l'eau, placer à feux doux et
+remuer jusqu'à obtention d'une pâte épaisse et étaignez le feux</li>
+<li>raper les carottes, écraser  l'ail, émincez les échalottes.</li>
+<li>faites revenir à la poële le curry à l'huile en ajoutant les
+légumes, pendant 2 ou 3 minutes, et salez</li>
+<li>incorporez les légumes dans la farine de pois chiches</li>
+<li>versez dans un moule à cake huilé. Enfournez à thermostat 6 durant
+35 minutes. Laissez refroidir</li>
+</ol>
+</div>
+<div class="section" id="pate-vegetal-de-pois-chiche">
+<h2><a class="toc-backref" href="#id48">Pâté végétal de pois-chiche</a></h2>
+<ul class="simple">
+<li>pois-chiche</li>
+<li>algues séchées</li>
+<li>épices (curcuma, cumin...)</li>
+<li>huile d'olive</li>
+<li>sauce soja</li>
+</ul>
+<ol class="arabic simple">
+<li>faire tremper les pois-chiche 1 ou 2 jours, puis les laisser germer</li>
+<li>cuire les pois-chiche dans de l'eau</li>
+<li>écraser les pois-chiche en purée (au mixer par exemple)</li>
+<li>faire chauffer huile d'olive, ajouter 1 cuiller à café de curcuma
+et 1 de cumin, et faire revenir la pâte de pois-chiche</li>
+<li>ajouter des petits bouts d'algue et de la sauce soja</li>
+</ol>
+<p>A tartiner sur du pain ou de la polenta, en rajoutant des olives ou du parmesan</p>
+</div>
+<div class="section" id="caviar-d-aubergines">
+<h2><a class="toc-backref" href="#id49">Caviar d'aubergines</a></h2>
+<p>Ajouter de la purée de pois-chiche au caviar d'aubergines le rend plus consistant et nourrissant.</p>
+<ul class="simple">
+<li>2 grosses aubergines</li>
+<li>3 ou 4 CàS d'huile  d'olive</li>
+<li>2 gousses d'ail</li>
+<li>2 CàS de jus de citron frais</li>
+<li>sel, cardamome</li>
+</ul>
+<ol class="arabic simple">
+<li>éplucher les aubergines et les couper en cubes</li>
+<li>faire cuire les aubergines à l'étouffée avec les gousses d'ail entières et l'huile d'olive</li>
+<li>verser dans le mixer, enlever la peau des gousses d'ail</li>
+<li>ajouter le jus de citron, la cardamome, saler, et mixer le tout</li>
+<li>mettez au frigo</li>
+</ol>
+</div>
+</div>
+<div class="section" id="desserts">
+<h1><a class="toc-backref" href="#id50">Desserts</a></h1>
+<div class="section" id="flan-au-caramel">
+<h2><a class="toc-backref" href="#id51">Flan au caramel</a></h2>
+<p>Ingrédients :</p>
+<ul class="simple">
+<li>caramel = 300g sucre + 4 cuillers à soupe d'eau</li>
+<li>flan = 1L lait, 7 oeufs, 200g de sucre, 2 paquets sucres vanillé ou vanille</li>
+</ul>
+<p>Préparation:</p>
+<ul class="simple">
+<li>caramel :<ol class="arabic">
+<li>humidifier le sucre dans poêlon puis caraméliser (chauffer).</li>
+<li>Enrober le plat de caramel (enrober les bords)</li>
+</ol>
+</li>
+<li>flan :<ol class="arabic">
+<li>casser 7 oeufs dans grand saladier, ajouter sucre vanillé.</li>
+<li>Porter à ébullition 1L lait avec 200g de sucre dans un poêllon
+(celui du caramel). Faire attention de ne pas déborder !!</li>
+<li>verser le lait dans le saladier avec les oeufs en battant les
+oeufs en même temps</li>
+<li>verser le mélange oeufs+lait dans le plat avec le caramel</li>
+<li>mettre au four (préalablement préchauffé), au bain-marie pendant
++/- 30 minutes (attention au moment de sortir du four)</li>
+<li>laisser refroidir (faire de préférence la veille...)</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="tarte-a-la-rhubarbe">
+<h2><a class="toc-backref" href="#id52">Tarte à la rhubarbe</a></h2>
+<p>Ingrédients :</p>
+<ul class="simple">
+<li>pâte sablée</li>
+<li>1 kg de rhubarbe</li>
+<li>4 blancs d'oeufs</li>
+<li>200g de sucre</li>
+<li>60g de farine (pour la rhubarbe)</li>
+<li>60g de sucre roux (ou pas)</li>
+<li>pincée de sel</li>
+</ul>
+<p>Préparation :</p>
+<ul class="simple">
+<li>pâte :<ol class="arabic">
+<li>préchauffer le four</li>
+<li>pré-cuire la pâte à blanc</li>
+</ol>
+</li>
+<li>masse<ol class="arabic">
+<li>éplucher la rhubarbe et la couper en dés</li>
+<li>battre 4 blancs en neige, ajouter une pincée de sel</li>
+<li>quand les blancs sont en neige, ajouter le sucre peu à peu</li>
+<li>enrober la rhubarbe dans de la farine et du sucre</li>
+<li>mélanger délicatement (pas trop)</li>
+</ol>
+</li>
+<li>le tout :<ol class="arabic">
+<li>mettre la préparation sur la pâte</li>
+<li>chauffer au four à 170° pendant 1h (en théorie)</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="tarte-a-la-rhubarbe-meringuee">
+<h2><a class="toc-backref" href="#id53">Tarte à la rhubarbe meringuée</a></h2>
+<p>Ingrédients :</p>
+<ul class="simple">
+<li>pâte brisée</li>
+<li>1kg de rhubarbe</li>
+<li>3 œufs</li>
+<li>1 sachet de sucre vanillé</li>
+<li>250g de sucre</li>
+<li>1 CaS de maïzena</li>
+<li>20 cl de crème</li>
+</ul>
+<p>Préparation :</p>
+<ol class="arabic simple">
+<li>laver, éplucher et couper en dés la rhubarbe, saupoudrer de sucre et laisser macérer 1h</li>
+<li>préchauffer le four à 230°C</li>
+<li>séparer blancs et jaunes de 2 œufs</li>
+<li>dans un bol mélanger : 1 œuf, 2 jaunes d'œufs, 1 sachet de sucre vanillé, 100g de sucre, la maïzena, et la crème afin de constituer un flan</li>
+<li>égoutter la rhubarbe en gardant le jus</li>
+<li>piquer la pâte avec une fourchette, placer les morceaux de rhubarbe et napper de flan</li>
+<li>mettre la pâte au four pendant 30 min</li>
+<li>battre les blancs en neige, puis y incorporer 100g de sucre pour consituter la meringue</li>
+<li>bouillir le jus de rhubarbe avec un peu de sucre pour faire un sirop</li>
+<li>napper la tarte d'un peu de sirop, de meringue et laisser sêcher dans le four afin que la meringue durcisse (toucher avec le doit, éventuellement laisser le four un peu à 100°C), puis d'encore un peu de sirop</li>
+</ol>
+</div>
+<div class="section" id="creme-de-cacao">
+<h2><a class="toc-backref" href="#id54">Crème de cacao</a></h2>
+<ul class="simple">
+<li>500ml de lait de riz/soja</li>
+<li>45g de cacao en poudre (pas le sucré, le vrai)</li>
+<li>100g de sucre</li>
+<li>25g de maïzena</li>
+<li>1 pincée de sel</li>
+</ul>
+<ol class="arabic simple">
+<li>mélanger le sucre, le cacao, le sel, le 1/4 du lait dans une
+casserole à fond épais, et chauffer le tout</li>
+<li>dissoudre la maïzena dans 1 verre de l'ait</li>
+<li>ajouter le reste du lait dans la casserole</li>
+<li>incorporer la maïzena dans le chocolat</li>
+<li>remuez continuellement, le mélange doit s'épaissir</li>
+<li>verser dans des ramequins, puis laisser reposer au frais</li>
+</ol>
+</div>
+<div class="section" id="creme-caramel">
+<h2><a class="toc-backref" href="#id55">Crème caramel</a></h2>
+<ul class="simple">
+<li>100g de sucre</li>
+<li>3 CàS bien remplies de maïzena</li>
+<li>500ml de lait</li>
+<li>1 CàS d'eau</li>
+</ul>
+<ol class="arabic simple">
+<li>faire le caramel avec le sucre + eau</li>
+<li>mélanger lait + maïzena</li>
+<li>hors du feu, verser doucement le lait dans le caramel (attention aux éclats)</li>
+<li>remettre sur le feu jusqu'à épaississement</li>
+<li>laisser reposer</li>
+</ol>
+</div>
+<div class="section" id="gateau-aux-blancs-d-oeufs">
+<h2><a class="toc-backref" href="#id56">Gateau aux blancs d'œufs</a></h2>
+<ul class="simple">
+<li>125g de farine</li>
+<li>190g de sucre</li>
+<li>4 blancs d'œufs</li>
+<li>1 paquet de sucre vanillé</li>
+<li>1 paquet de levure</li>
+<li>65g de beurre</li>
+<li>1 pincée de sel</li>
+</ul>
+<ol class="arabic simple">
+<li>faire fondre le beurre</li>
+<li>mélanger farine, sucre, et beurre fondu</li>
+<li>monter les blancs d'œufs en neige avec un peu de sel</li>
+<li>intégrer la neige dans les poudres</li>
+<li>beurrer un plat et y verser le mélange</li>
+<li>faire cuire à 160 C pendant ~50min</li>
+</ol>
+</div>
+</div>
+<div class="section" id="jus-de-fruits">
+<h1><a class="toc-backref" href="#id57">Jus de fruits</a></h1>
+<p>Avec le blender :</p>
+<ul class="simple">
+<li>jus d'orange carotte</li>
+<li>jus ananas menthe</li>
+</ul>
+</div>
+<div class="section" id="laits">
+<h1><a class="toc-backref" href="#id58">Laits</a></h1>
+<div class="section" id="lait-de-riz">
+<h2><a class="toc-backref" href="#id59">Lait de riz</a></h2>
+<p>Pas très réussi pour l'instant :</p>
+<ul class="simple">
+<li>50g de riz</li>
+<li>1300g d'eau</li>
+<li>eau de trempage</li>
+</ul>
+<ol class="arabic simple">
+<li>nettoyer le riz et le faire tremper au moins 4 heures</li>
+<li>mettre le riz de l'eau, porter à ébullition puis faire chauffer
+encore 10 min</li>
+<li>laisser reposer 1/4 d'heure et passer à la passoire fine</li>
+</ol>
+</div>
+<div class="section" id="lait-de-soja">
+<h2><a class="toc-backref" href="#id60">Lait de soja</a></h2>
+<ul class="simple">
+<li>300g de graines de soja séchées</li>
+<li>2L d'eau</li>
+<li>(sucre)</li>
+</ul>
+<ol class="arabic simple">
+<li>faire tremper les graines de soja 2 nuits</li>
+<li>mixer le soja avec un peu d'eau</li>
+<li>porter à ébullition le tout à feu très doux en remuant
+régulièrement jusqu'à ce qu'il n'y ai plus de mousse. Il est
+recommandé de laisser bouillir 20 min supplémentaires pour
+amoindrir la toxicité du soja</li>
+<li>éventuellement sucrer pendant la cuisson</li>
+</ol>
+<p>A conserver au frais dans une bouteille stérilisée et à consommer dans
+les 48 heures : il tourne facilement.</p>
+</div>
+<div class="section" id="creme-de-soja">
+<h2><a class="toc-backref" href="#id61">Crème de soja</a></h2>
+<p>à essayer, vu sur:</p>
+<p><a class="reference external" href="http://forum.aufeminin.com/forum/vegetariens/__f4594_vegetariens--70aire-100e-108a-99reme-118egetale.html#81746">http://forum.aufeminin.com/forum/vegetariens/__f4594_vegetariens--70aire-100e-108a-99reme-118egetale.html#81746</a></p>
+<ul class="simple">
+<li>1/2 tasse de lait de soja</li>
+<li>1 CàS de vinaigre de riz</li>
+</ul>
+<ol class="arabic simple">
+<li>mettre le vinaigre dans la tasse de lait</li>
+<li>bien remuer et attendre 10 à 15 min</li>
+</ol>
+</div>
+</div>
+<div class="section" id="epices">
+<h1><a class="toc-backref" href="#id62">Epices</a></h1>
+<div class="section" id="masala">
+<h2><a class="toc-backref" href="#id63">Masala</a></h2>
+<ul class="simple">
+<li>huile</li>
+<li>1 CàC. de coriandre</li>
+<li>1 CàC. de gingembre</li>
+<li>1 CàC. de curcuma</li>
+<li>1 piment vert ou piment en poudre</li>
+<li>1/2 oignon (nous : 2 oignons)</li>
+<li>1 gousse d'ail finement hachée</li>
+<li>1 tomate (facultatif)</li>
+<li>sel, poivre</li>
+</ul>
+<p>faire cuire le tout à la poële à l'huile à feu doux, rajouter de l'eau
+pour éviter que les épices ne brunissent.</p>
+</div>
+</div>
+<div class="section" id="sauces">
+<h1><a class="toc-backref" href="#id64">Sauces</a></h1>
+<div class="section" id="sauce-blanche">
+<h2><a class="toc-backref" href="#id65">Sauce blanche</a></h2>
+<p>Sauce blanche pour kebab et fallafels. À essayer :</p>
+<ul class="simple">
+<li>2 yaourts à la grecque ou fromage blanc</li>
+<li>1/2 citron press</li>
+<li>1 échalotte</li>
+<li>1 oignon</li>
+<li>2 gousses d'ail</li>
+<li>2 CàC. de mayonnaise</li>
+<li>piment doux</li>
+<li>cumin</li>
+<li>herbes de provence, persil, ciboulette, menthe…</li>
+<li>sel, poivre</li>
+<li>un peu de lait</li>
+</ul>
+<ol class="arabic simple">
+<li>émincer finement oignon, ail, échalotte, herbes</li>
+<li>mélanger les ingrédients</li>
+<li>diluer avec un peu de lait pour obtenir la consistence désirée</li>
+</ol>
+</div>
+</div>
+<div class="section" id="cocktails">
+<h1><a class="toc-backref" href="#id66">Cocktails</a></h1>
+<div class="section" id="advocaat">
+<h2><a class="toc-backref" href="#id67">Advocaat</a></h2>
+<p>Liqueur aux œufs, très bon digestif :</p>
+<ul class="simple">
+<li>10 jaunes d'œufs</li>
+<li>3 sachet de sucre vanillé</li>
+<li>200g de sucre semoule</li>
+<li>1 boite de lait concentré non sucré (~410g)</li>
+<li>200cl de vodka</li>
+</ul>
+<ol class="arabic simple">
+<li>battre les jaunes</li>
+<li>ajouter le sucre, sucre vanillé, le lait et la vodka</li>
+<li>laisser reposer 10 à 15 jours avant de déguster. Lors de la macération on
+perd du volume.</li>
+</ol>
+</div>
+</div>
+</div>
+</body>
+</html>
