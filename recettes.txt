@@ -324,7 +324,7 @@ Soupe de légumes
 2. couper les légumes en dés et les incorporer dans le wok
 3. ajouter de la crême fraiche et du lait et mixer le tout
 
-Soupe de Bolets
+Soupe de bolets
 ---------------
 
 - 1 ou 2 oignons
@@ -343,6 +343,18 @@ Soupe de Bolets
 3. ajouter 1 |cs| de farine, sel, poivre et faire cuire doucement
 4. verser le bouillon sur les champigons, ajouter la crême fraiche
 5. porter à table accompagné de croûtons avec de l'ail et de fromage râpé
+
+Soupe de tomates en boite
+-------------------------
+
+- 1 boite de tomates entières pelées
+- 1 cube de bouillon de légumes
+- 1 boite de crème fraiche
+- sel, poivre, herbes
+
+1. faire bouillir une casserole d'eau avec du bouillon
+2. ajouter les tomates
+3. ajouter la crème à la fin, assaisonner
 
 Plats
 =====
@@ -870,7 +882,22 @@ Ajouter de la purée de pois-chiche au caviar d'aubergines le rend plus consista
 4. ajouter le jus de citron, la cardamome, saler, et mixer le tout
 5. mettez au frigo
 
+Houmous
+-------
 
+- 1 bol de pois-chiches
+- 4 |cs| de pâte de sésame (tahin)
+- 1/2 citron (jus)
+- huile d'olive
+- 1 gousse d'ail
+- sel
+
+1. laisser humidifier les pois-chiches pendant une nuit
+2. presser le citron pour en récupérer le jus
+3. peler, dégermer et écraser l'ail
+4. mixer au fur en ajoutant au fur et mesure les ingrédients
+
+Le résultat doit être ni trop liquide ni trop sec.
 
 Desserts
 ========
@@ -880,7 +907,7 @@ Flan au caramel
 
 Ingrédients :
 
-- caramel = 300g sucre + 4 cuillers à soupe d'eau
+- caramel = 300g sucre + 4 |cs| d'eau
 - flan = 1L lait, 7 oeufs, 200g de sucre, 2 paquets sucres vanillé ou vanille
 
 Préparation:
